@@ -1,0 +1,21 @@
+{
+  "name": "rose-pine",
+  "displayName": "Rosé Pine",
+  "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rosé Pine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rose-pine-color-theme.json"
+      }
+    ]
+  }
+}
