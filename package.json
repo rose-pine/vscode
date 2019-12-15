@@ -1,6 +1,10 @@
 {
   "name": "rose-pine",
+  "publisher": "mvllow",
   "displayName": "Rosé Pine",
+  "repository": {
+    "url": "https://github.com/mvllow/rose-pine"
+  },
   "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
   "version": "0.1.0",
   "engines": {
