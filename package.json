@@ -1,8 +1,9 @@
 {
   "name": "rose-pine",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "publisher": "mvllow",
   "displayName": "Rosé Pine",
+  "icon": "assets/icon.png",
   "repository": {
     "url": "https://github.com/mvllow/rose-pine"
   },
@@ -19,6 +20,13 @@
         "label": "Rosé Pine",
         "uiTheme": "vs-dark",
         "path": "./themes/rose-pine-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "rose-pine-icons",
+        "label": "Rosé Pine Icons",
+        "path": "./themes/rose-pine-icon-theme.json"
       }
     ]
   }
