@@ -1,9 +1,3 @@
-# Change Log
+## What's new?
 
-All notable changes to the "rose-pine" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- 100% UI coverage, woo 🤗
