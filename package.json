@@ -1,7 +1,7 @@
 {
   "name": "rose-pine",
   "displayName": "Rosé Pine",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "license": "MIT",
   "publisher": "mvllow",
   "icon": "assets/icon.png",
@@ -27,7 +27,7 @@
     "subtle"
   ],
   "scripts": {
-    "package": "vsce package"
+    "build": "vsce package"
   },
   "engines": {
     "vscode": "^1.40.0"
