@@ -4,7 +4,7 @@
   "version": "0.2.2",
   "license": "MIT",
   "publisher": "mvllow",
-  "icon": "previews/icon.png",
+  "icon": "assets/icon.png",
   "galleryBanner": {
     "color": "#ebbcba",
     "theme": "dark"
@@ -27,7 +27,7 @@
     "subtle"
   ],
   "scripts": {
-    "publish": "vsce publish"
+    "package": "vsce package"
   },
   "engines": {
     "vscode": "^1.40.0"
