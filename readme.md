@@ -2,11 +2,11 @@
 
 All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
 
-![](assets/preview-code.png)
+![Code snippet](assets/preview-code.png)
 
 **Palette**
 
-![](assets/preview-palette.png)
+<img src="assets/preview-palette.png" alt="Palette" width="300">
 
 **Coverage**
 
