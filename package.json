@@ -2,6 +2,7 @@
   "name": "rose-pine",
   "displayName": "Rosé Pine",
   "version": "0.2.0",
+  "license": "MIT",
   "publisher": "mvllow",
   "icon": "assets/icon.png",
   "galleryBanner": {
@@ -54,5 +55,8 @@
         "path": "./themes/rose-pine-icon-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "vsce": "^1.73.0"
   }
 }
