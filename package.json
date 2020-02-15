@@ -1,13 +1,33 @@
 {
   "name": "rose-pine",
-  "version": "0.1.4",
-  "publisher": "mvllow",
   "displayName": "Rosé Pine",
+  "version": "0.2.0",
+  "publisher": "mvllow",
   "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#ebbcba",
+    "theme": "dark"
+  },
   "repository": {
+    "type": "git",
     "url": "https://github.com/mvllow/rose-pine"
   },
   "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
+  "keywords": [
+    "theme",
+    "dark theme",
+    "light theme",
+    "rose pine",
+    "rose moonlit",
+    "rose dawn",
+    "minimal",
+    "pastel",
+    "classy",
+    "subtle"
+  ],
+  "scripts": {
+    "publish": "vsce publish"
+  },
   "engines": {
     "vscode": "^1.40.0"
   },
@@ -16,6 +36,11 @@
   ],
   "contributes": {
     "themes": [
+      {
+        "label": "Rosé Pine Legacy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rose-pine-legacy-color-theme.json"
+      },
       {
         "label": "Rosé Pine",
         "uiTheme": "vs-dark",
