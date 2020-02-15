@@ -1,7 +1,7 @@
 {
   "name": "rose-pine",
   "displayName": "Rosé Pine",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "publisher": "mvllow",
   "icon": "previews/icon.png",
@@ -32,7 +32,9 @@
   "engines": {
     "vscode": "^1.40.0"
   },
-  "categories": ["Themes"],
+  "categories": [
+    "Themes"
+  ],
   "contributes": {
     "themes": [
       {
