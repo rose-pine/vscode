@@ -6,7 +6,7 @@ All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
 
 **Palette**
 
-<img src="assets/preview-palette.png" alt="Default palette" width="300" />
+![](assets/preview-palette.png =300x)
 
 **Coverage**
 
