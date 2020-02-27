@@ -575,8 +575,8 @@
     "tab.unfocusedInactiveModifiedBorder": "#0000",
 
     /* terminal. */
-    "terminal.ansiBlack": "#000",
-    "terminal.ansiBrightBlack": "#000",
+    "terminal.ansiBlack": "#706e86ff",
+    "terminal.ansiBrightBlack": "#706e86ff",
     "terminal.ansiWhite": "#e0def4ff",
     "terminal.ansiBrightWhite": "#e0def4ff",
     "terminal.ansiBlue": "#31748fff",
