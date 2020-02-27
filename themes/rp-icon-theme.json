@@ -4,7 +4,7 @@
       "iconPath": "../icons/file.svg"
     },
     "_folder": {
-      "iconPath": "../icons/folder-closed.svg"
+      "iconPath": "../icons/folder.svg"
     },
     "_folder_open": {
       "iconPath": "../icons/folder-open.svg"
@@ -13,9 +13,5 @@
   "file": "_file",
   "folder": "_folder",
   "folderExpanded": "_folder_open",
-  "rootFolder": "_folder_root",
-  "rootFolderExpanded": "_folder_root_open",
-  "fileExtensions": {},
-  "hidesExplorerArrows": true,
-  "languageIds": {}
+  "hidesExplorerArrows": true
 }

@@ -6,7 +6,7 @@
   "publisher": "mvllow",
   "icon": "assets/icon.png",
   "galleryBanner": {
-    "color": "#ebbcba",
+    "color": "#191724",
     "theme": "dark"
   },
   "repository": {
@@ -24,10 +24,12 @@
     "minimal",
     "pastel",
     "classy",
-    "subtle"
+    "subtle",
+    "soft"
   ],
   "scripts": {
-    "build": "vsce package"
+    "build": "vsce package",
+    "colortest": "npx colortest"
   },
   "engines": {
     "vscode": "^1.40.0"
@@ -38,21 +40,17 @@
   "contributes": {
     "themes": [
       {
-        "label": "Rosé Pine Legacy",
-        "uiTheme": "vs-dark",
-        "path": "./themes/rose-pine-legacy-color-theme.json"
-      },
-      {
+        "id": "Rosé Pine",
         "label": "Rosé Pine",
         "uiTheme": "vs-dark",
-        "path": "./themes/rose-pine-color-theme.json"
+        "path": "./themes/rp-color-theme.json"
       }
     ],
     "iconThemes": [
       {
-        "id": "rose-pine-icons",
+        "id": "Rosé Pine Icons",
         "label": "Rosé Pine Icons",
-        "path": "./themes/rose-pine-icon-theme.json"
+        "path": "./themes/rp-icon-theme.json"
       }
     ]
   },
