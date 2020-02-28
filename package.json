@@ -40,7 +40,6 @@
   "contributes": {
     "themes": [
       {
-        "id": "Rosé Pine",
         "label": "Rosé Pine",
         "uiTheme": "vs-dark",
         "path": "./themes/rp-color-theme.json"
