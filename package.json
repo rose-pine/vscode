@@ -1,7 +1,7 @@
 {
   "name": "rose-pine",
   "displayName": "Rosé Pine",
-  "version": "0.3.0",
+  "version": "0.3.4",
   "license": "MIT",
   "publisher": "mvllow",
   "icon": "assets/icon.png",
@@ -29,6 +29,7 @@
   ],
   "scripts": {
     "build": "npx vsce package",
+    "publish": "npx vsce publish",
     "colortest": "npx colortest"
   },
   "engines": {
