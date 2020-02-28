@@ -12,7 +12,8 @@ All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
 
 The community is encouraged to port Rosé Pine to your favourite apps!
 
-- [Hyper](hyper.is) (coming soon)
+- [VSCode](https://github.com/mvllow/rose-pine) (by @mvllow)
+- [Hyper](https://github.com/fvrests/hyper-rose-pine) (by @fvrests)
 
 **Color customisations**
 
