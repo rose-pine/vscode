@@ -20,6 +20,7 @@
 
   // #e0def4ff text
   // #706e86ff soft
+  // #706e8680 soft (50%)
   // #706e8666 soft (40%)
   // #706e864d soft (30%)
 
@@ -195,7 +196,7 @@
 
     /* editorLineNumber. */
     "editorLineNumber.activeForeground": "#e0def4ff",
-    "editorLineNumber.foreground": "#706e864d",
+    "editorLineNumber.foreground": "#706e8680",
 
     /* editorLink. */
     "editorLink.activeForeground": "#ebbcbaff",
