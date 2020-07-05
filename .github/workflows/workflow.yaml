@@ -20,24 +20,24 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout repo
-        uses: actions/checkout@v2
+      # - name: checkout repo
+      #   uses: actions/checkout@v2
 
-      - name: fetch all history and tags from all branches for gitversion
-        run: git fetch --prune --unshallow
+      # - name: fetch all history and tags from all branches for gitversion
+      #   run: git fetch --prune --unshallow
 
-      - name: install gitversion tool
-        uses: gittools/actions/gitversion/setup@v0.9
-        with:
-          versionSpec: "5.1.x"
+      # - name: install gitversion tool
+      #   uses: gittools/actions/gitversion/setup@v0.9
+      #   with:
+      #     versionSpec: "5.1.x"
 
-      - name: setup node
-        uses: actions/setup-node@v1
-        with:
-          node-version: "12.x"
+      # - name: setup node
+      #   uses: actions/setup-node@v1
+      #   with:
+      #     node-version: "12.x"
 
-      - name: clean install dependencies
-        run: npm ci
+      # - name: clean install dependencies
+      #   run: npm ci
 
       # - name: add version in CHANGELOG.md
       #   uses: cschleiden/replace-tokens@v1.0
@@ -46,13 +46,13 @@ jobs:
       #   env:
       #     VERSION: "${{ steps.gitversion.outputs.semVer }}"
 
-      - name: compile and create vsix
-        run: npm run package
-      - name: upload vsix as artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: rose-pine-0.3.6.vsix
-          path: ${{github.workspace}}/rose-pine-0.3.6.vsix
+      # - name: compile and create vsix
+      #   run: npm run package
+      # - name: upload vsix as artifact
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     name: rose-pine-0.3.6.vsix
+      #     path: ${{github.workspace}}/rose-pine-0.3.6.vsix
       - name: publish to marketplace
         uses: lannonbr/vsce-action@master
         with:
