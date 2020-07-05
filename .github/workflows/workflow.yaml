@@ -8,7 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm install
       - name:  'Automated Version Bump'
         uses:  'phips28/gh-action-bump-version@master'
         with:
