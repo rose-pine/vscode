@@ -29,7 +29,7 @@
   ],
   "scripts": {
     "build": "npx vsce package",
-    "publish": "npx vsce publish",
+    "deploy": "vsce publish --yarn",
     "colortest": "npx colortest"
   },
   "engines": {
