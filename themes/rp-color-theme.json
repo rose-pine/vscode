@@ -19,6 +19,7 @@
   // #f6c17780 gold (50%)
 
   // #e0def4ff text
+  // #65618eff comment
   // #706e86ff soft
   // #706e8680 soft (50%)
   // #706e8666 soft (40%)
@@ -647,7 +648,7 @@
     {
       "scope": ["comment"],
       "settings": {
-        "foreground": "#65618e",
+        "foreground": "#65618eff",
         "fontStyle": "italic"
       }
     },
@@ -730,7 +731,7 @@
     {
       "scope": ["punctuation"],
       "settings": {
-        "foreground": "#65618e"
+        "foreground": "#65618eff"
       }
     },
     {
