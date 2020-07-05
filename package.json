@@ -27,9 +27,6 @@
     "subtle",
     "soft"
   ],
-  "scripts": {
-    "deploy": "vsce publish"
-  },
   "engines": {
     "vscode": "^1.40.0"
   },
