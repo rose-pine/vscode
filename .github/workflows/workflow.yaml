@@ -7,12 +7,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - run: npm install
       - name:  'Automated Version Bump'
         uses:  'phips28/gh-action-bump-version@master'
         with:
           tag-prefix:  ''
-      - uses: actions/checkout@v2
-      - run: npm install
       - uses: lannonbr/vsce-action@master
         with:
           args: "publish -p $VSCE_TOKEN"
