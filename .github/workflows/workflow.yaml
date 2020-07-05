@@ -10,6 +10,7 @@ on:
       - ".gitignore"
       - ".vscodeignore"
       - "changelog.md"
+      - "node_modules"
       - "package.json"
       - "package-lock.json"
       - "readme.md"
@@ -74,10 +75,10 @@ jobs:
           echo "VSIX Path: ${{ env.vsix_path }}"
 
       - name: upload vsix as artifact
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v2
         with:
           name: vsix-viewer-${{steps.gitversion.outputs.semVer}}.vsix
-          path: ${{ env.GITHUB_WORKSPACE }}/vsix-viewer-${{ steps.gitversion.outputs.semVer }}.vsix
+          path: vsix-viewer-${{ steps.gitversion.outputs.semVer }}.vsix
 
       - name: publish to marketplace
         if: github.ref == 'refs/heads/master'
