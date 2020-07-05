@@ -77,7 +77,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: vsix-viewer-${{steps.gitversion.outputs.semVer}}.vsix
-          path: ${{github.workspace}}/vsix-viewer-${{steps.gitversion.outputs.semVer}}.vsix
+          path: ${{ env.GITHUB_WORKSPACE }}/vsix-viewer-${{ steps.gitversion.outputs.semVer }}.vsix
 
       - name: publish to marketplace
         if: github.ref == 'refs/heads/master'
