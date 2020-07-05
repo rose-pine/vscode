@@ -8,12 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name:  'Automated Version Bump'
-        uses:  'phips28/gh-action-bump-version@master'
+      - name: "Automated Version Bump"
+        uses: "phips28/gh-action-bump-version@master"
         with:
-          tag-prefix:  ''
+          tag-prefix: ""
       - uses: lannonbr/vsce-action@master
         with:
           args: "publish -p $VSCE_TOKEN"
         env:
-          VSCE_TOKEN: ${{ secrets.PAT }}
+          VSCE_TOKEN: ${{ secrets.PAT }} # This exists in github settings
