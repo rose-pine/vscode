@@ -1,0 +1,93 @@
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - ".github/**"
+      - ".vscode/**"
+      - "assets/**"
+      - "demo/**"
+      - ".gitignore"
+      - ".vscodeignore"
+      - "changelog.md"
+      - "package.json"
+      - "readme.md"
+      - "yarn.lock"
+
+name: Deploy Extension
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v2
+
+      - name: fetch all history and tags from all branches for gitversion
+        run: git fetch --prune --unshallow
+
+      - name: install gitversion tool
+        uses: gittools/actions/gitversion/setup@v0.9
+        with:
+          versionSpec: "5.1.x"
+
+      - name: execute gitversion
+        id: gitversion
+        uses: gittools/actions/gitversion/execute@v0.9
+
+      - name: print gitversion
+        run: |
+          echo "Major: ${{ steps.gitversion.outputs.major }}"
+          echo "Minor: ${{ steps.gitversion.outputs.minor }}"
+          echo "Patch: ${{ steps.gitversion.outputs.patch }}"
+          echo "MajorMinorPatch: ${{ steps.gitversion.outputs.majorMinorPatch }}"
+          echo "SemVer: ${{ steps.gitversion.outputs.semVer }}"
+
+      - name: setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+
+      - name: clean install dependencies
+        run: npm ci
+
+      - name: update metadata in package.json
+        uses: onlyutkarsh/patch-files-action@v1.0.1
+        with:
+          files: "${{github.workspace}}/package.json"
+          patch-syntax: |
+            = /version => "${{ steps.gitversion.outputs.semVer }}"
+            = /displayName => "VSIX Viewer"
+            = /description => "A simple viewer for VSIX files, which lets you see the contents of VSIX files within Visual Studio Code."
+
+      - name: add version in CHANGELOG.md
+        uses: cschleiden/replace-tokens@v1.0
+        with:
+          files: "${{github.workspace}}/CHANGELOG.md"
+        env:
+          VERSION: "${{ steps.gitversion.outputs.semVer }}"
+
+      - name: compile and create vsix
+        run: npm run package
+
+      - name: print vsix path
+        run: |
+          echo "VSIX Path: ${{ env.vsix_path }}"
+
+      - name: upload vsix as artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: vsix-viewer-${{steps.gitversion.outputs.semVer}}.vsix
+          path: ${{github.workspace}}/vsix-viewer-${{steps.gitversion.outputs.semVer}}.vsix
+
+      - name: publish to marketplace
+        if: github.ref == 'refs/heads/master'
+        run: npm run deploy ${{ env.PAT }}
+
+      - name: create a release
+        if: github.ref == 'refs/heads/master'
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ steps.gitversion.outputs.semVer }}
+          release_name: v${{ steps.gitversion.outputs.semVer }}
