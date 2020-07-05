@@ -21,6 +21,6 @@ jobs:
           tag-prefix: ""
       - uses: lannonbr/vsce-action@master
         with:
-          args: 'publish -p $VSCE_TOKEN'
+          args: "publish -p $VSCE_TOKEN"
         env:
           VSCE_TOKEN: ${{ secrets.PAT }} # This exists in github settings
