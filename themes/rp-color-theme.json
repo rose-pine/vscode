@@ -786,6 +786,31 @@
       }
     },
     /* text. */
+    /* token. */
+    {
+      "scope": "token.info-token",
+      "settings": {
+        "foreground": "#9ccfd8"
+      }
+    },
+    {
+      "scope": "token.warn-token",
+      "settings": {
+        "foreground": "#f6c177"
+      }
+    },
+    {
+      "scope": "token.error-token",
+      "settings": {
+        "foreground": "#eb6f92"
+      }
+    },
+    {
+      "scope": "token.debug-token",
+      "settings": {
+        "foreground": "#c4a7e7"
+      }
+    },
     /* variable. */
     {
       "scope": ["variable"],
