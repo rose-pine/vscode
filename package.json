@@ -2,7 +2,7 @@
   "name": "rose-pine",
   "displayName": "Rosé Pine",
   "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
-  "version": "0.3.9",
+  "version": "0.3.11",
   "publisher": "mvllow",
   "license": "MIT",
   "icon": "assets/icon.png",
@@ -27,9 +27,6 @@
     "subtle",
     "soft"
   ],
-  "scripts": {
-    "deploy": "vsce publish"
-  },
   "engines": {
     "vscode": "^1.40.0"
   },
