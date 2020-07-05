@@ -81,8 +81,11 @@ jobs:
           path: ${{github.workspace}}/rose-pine-${{ steps.gitversion.outputs.semVer }}.vsix
 
       - name: publish to marketplace
-        if: github.ref == 'refs/heads/master'
-        run: npm run deploy -p ${{ env.PAT }}
+        uses: lannonbr/vsce-action@master
+        with:
+          args: "publish -p $VSCE_TOKEN"
+        env:
+          VSCE_TOKEN: ${{ secrets.PAT }}
 
       - name: create a release
         if: github.ref == 'refs/heads/master'
