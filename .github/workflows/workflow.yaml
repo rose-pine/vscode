@@ -77,8 +77,8 @@ jobs:
       - name: upload vsix as artifact
         uses: actions/upload-artifact@v2
         with:
-          name: vsix-viewer-${{steps.gitversion.outputs.semVer}}.vsix
-          path: ${{github.workspace}}/vsix-viewer-${{ steps.gitversion.outputs.semVer }}.vsix
+          name: rose-pine-${{steps.gitversion.outputs.semVer}}.vsix
+          path: ${{github.workspace}}/rose-pine-${{ steps.gitversion.outputs.semVer }}.vsix
 
       - name: publish to marketplace
         if: github.ref == 'refs/heads/master'
