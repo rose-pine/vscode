@@ -28,8 +28,8 @@
     "soft"
   ],
   "scripts": {
-    "build": "npx vsce package",
-    "deploy": "vsce publish --yarn",
+    "package": "npx vsce package",
+    "deploy": "vsce publish",
     "colortest": "npx colortest"
   },
   "engines": {

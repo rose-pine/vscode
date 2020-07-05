@@ -11,8 +11,8 @@ on:
       - ".vscodeignore"
       - "changelog.md"
       - "package.json"
+      - "package-lock.json"
       - "readme.md"
-      - "yarn.lock"
 
 name: Deploy Extension
 jobs:
