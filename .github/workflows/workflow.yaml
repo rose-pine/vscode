@@ -3,11 +3,11 @@ on:
     branches:
       - master
     paths-ignore:
-      - '.github/**'
-      - '.vscode/**'
-      - 'demo/**'
-      - '.*'
-      - '*.md'
+      - ".github/**"
+      - ".vscode/**"
+      - "demo/**"
+      - ".*"
+      - "*.md"
 
 name: Deploy Extension
 jobs:
