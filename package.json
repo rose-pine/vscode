@@ -1,9 +1,10 @@
 {
   "name": "rose-pine",
   "displayName": "Rosé Pine",
+  "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
   "version": "0.3.7",
-  "license": "MIT",
   "publisher": "mvllow",
+  "license": "MIT",
   "icon": "assets/icon.png",
   "galleryBanner": {
     "color": "#191724",
@@ -13,7 +14,6 @@
     "type": "git",
     "url": "https://github.com/rose-pine/vscode"
   },
-  "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
   "keywords": [
     "theme",
     "dark theme",
@@ -28,9 +28,7 @@
     "soft"
   ],
   "scripts": {
-    "package": "npx vsce package",
-    "deploy": "vsce publish",
-    "colortest": "npx colortest"
+    "deploy": "vsce publish"
   },
   "engines": {
     "vscode": "^1.40.0"
@@ -53,8 +51,5 @@
         "path": "./themes/rp-icon-theme.json"
       }
     ]
-  },
-  "devDependencies": {
-    "vsce": "^1.73.0"
   }
 }
