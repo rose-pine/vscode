@@ -9,13 +9,13 @@ on:
       - ".*"
       - "*.md"
 
-name: Deploy Extension
+name: Publish
 jobs:
-  deploy:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: "Automated Version Bump"
+      - name: "bump version"
         uses: "phips28/gh-action-bump-version@master"
         with:
           tag-prefix: ""
