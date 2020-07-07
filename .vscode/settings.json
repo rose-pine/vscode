@@ -1,0 +1,9 @@
+{
+  "breadcrumbs.enabled": true,
+  "editor.minimap.enabled": true,
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.colorTheme": "Rosé Pine",
+  "workbench.iconTheme": "Rosé Pine Icons",
+  "workbench.statusBar.visible": true
+}
