@@ -566,7 +566,7 @@
     "tab.hoverBackground": "#0000",
     "tab.hoverBorder": "#0000",
     "tab.inactiveBackground": "#0000",
-    "tab.inactiveForeground": "#575279cc",
+    "tab.inactiveForeground": "#57527966",
     "tab.inactiveModifiedBorder": "#0000",
     "tab.unfocusedActiveBackground": "#0000",
     "tab.unfocusedActiveBorder": "#0000",
@@ -575,7 +575,7 @@
     "tab.unfocusedActiveModifiedBorder": "#0000",
     "tab.unfocusedHoverBackground": "#0000",
     "tab.unfocusedHoverBorder": "#0000",
-    "tab.unfocusedInactiveForeground": "#575279cc",
+    "tab.unfocusedInactiveForeground": "#57527966",
     "tab.unfocusedInactiveModifiedBorder": "#0000",
 
     /* terminal. */
