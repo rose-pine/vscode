@@ -15,8 +15,10 @@
   // #9a86b180 iris (50%)
   // #bd6d83 heat
   // #bd6d8380 heat (50%)
-  // #edac53 leaf
-  // #edac5380 leaf (50%)
+  // #769b94 leaf
+  // #769b94 leaf (80%)
+  // #edac53 gold
+  // #edac5380 gold (50%)
 
   // #575279 text
   // #575279cc soft
@@ -743,7 +745,7 @@
     {
       "scope": ["punctuation.definition.string"],
       "settings": {
-        "foreground": "#edac53"
+        "foreground": "#769b94"
       }
     },
     {
@@ -764,7 +766,7 @@
     {
       "scope": ["string"],
       "settings": {
-        "foreground": "#edac53"
+        "foreground": "#769b94"
       }
     },
     /* support. */
