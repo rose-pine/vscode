@@ -39,6 +39,11 @@
         "label": "Rosé Pine",
         "uiTheme": "vs-dark",
         "path": "./themes/rp-color-theme.json"
+      },
+      {
+        "label": "Rosé Pine Dawn",
+        "uiTheme": "vs",
+        "path": "./themes/rp-dawn-color-theme.json"
       }
     ],
     "iconThemes": [
