@@ -7,7 +7,7 @@
   "license": "MIT",
   "icon": "assets/icon.png",
   "scripts": {
-    "generate": "pinecone"
+    "build": "pinecone"
   },
   "galleryBanner": {
     "color": "#191724",
@@ -58,6 +58,6 @@
     ]
   },
   "dependencies": {
-    "@mvllow/pinecone": "^0.1.0"
+    "@mvllow/pinecone": "file:../pinecone"
   }
 }
