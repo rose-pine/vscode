@@ -58,6 +58,6 @@
     ]
   },
   "dependencies": {
-    "@mvllow/pinecone": "file:../pinecone"
+    "@mvllow/pinecone": "^0.3.2"
   }
 }
