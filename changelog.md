@@ -1,5 +1,13 @@
 # Changelog
 
+## Latest
+
+- New Rosé Pine Moon variant
+
+## 0.3.13
+
+- New Rosé Pine Dawn variant (thanks to @fvrests!)
+
 ## 0.3.12
 
 - New file icons
