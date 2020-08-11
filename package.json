@@ -44,6 +44,11 @@
         "path": "./themes/rp-color-theme.json"
       },
       {
+        "label": "Rosé Pine Moon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rp-moon-color-theme.json"
+      },
+      {
         "label": "Rosé Pine Dawn",
         "uiTheme": "vs",
         "path": "./themes/rp-dawn-color-theme.json"
