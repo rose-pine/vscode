@@ -14,7 +14,7 @@ The overview ruler (right gutter) and scrollbars cannot be hidden via vscode set
 ```json
 {
   "workbench.colorCustomizations": {
-    "editorOverviewRuler.addedForeground": "#9ccfd8ff",
+    "editorOverviewRuler.addedForeground": "#0000",
     "editorOverviewRuler.border": "#0000",
     "editorOverviewRuler.bracketMatchForeground": "#0000",
     "editorOverviewRuler.commonContentForeground": "#0000",
