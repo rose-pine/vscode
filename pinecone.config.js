@@ -1,12 +1,9 @@
 module.exports = {
-  input: './themes/color-theme.json',
-  dir: './themes',
-  prefix: '_',
   themes: [
     {
       name: 'Rosé Pine Dawn',
       slug: 'rp-dawn',
-      type: 'light',
+      type: '',
       colors: {
         transparent: '#0000',
 
