@@ -11,7 +11,7 @@
     "semi": false
   },
   "scripts": {
-    "build": "npx @mvllow/pinecone"
+    "build": "npx @mvllow/pinecone@beta"
   },
   "galleryBanner": {
     "color": "#191724",

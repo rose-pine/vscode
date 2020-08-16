@@ -1,12 +1,9 @@
 module.exports = {
-  input: './themes/color-theme.json',
-  dir: './themes',
-  prefix: '_',
   themes: [
     {
       name: 'Rosé Pine Dawn',
       slug: 'rp-dawn',
-      type: 'light',
+      type: '',
       colors: {
         transparent: '#0000',
 
@@ -19,8 +16,9 @@ module.exports = {
         'fg-subtle': '#575279cc',
         'fg-inactive': '#57527980',
         'fg-inactive-symbol': '#57527966',
-        'fg-highlight': '#5752791a',
-        'highlight-fg': '',
+        'fg-highlight': '#57527980',
+        'bg-highlight': '#5752790a',
+        'bg-highlight-active': '#5752791a',
 
         rose: '#e09694',
         'rose-muted': '#e0969480',
@@ -55,6 +53,8 @@ module.exports = {
         'fg-inactive': '#8C8AA760',
         'fg-inactive-symbol': '#8C8AA780',
         'fg-highlight': '#8C8AA780',
+        'bg-highlight': '#8C8AA71a',
+        'bg-highlight-active': '#8C8AA72a',
 
         rose: '#EA9A97',
         'rose-muted': '#EA9A9780',
@@ -89,6 +89,8 @@ module.exports = {
         'fg-inactive': '#706e86',
         'fg-inactive-symbol': '#706e8680',
         'fg-highlight': '#706e8666',
+        'bg-highlight': '#706e861a',
+        'bg-highlight-active': '#706e862a',
 
         rose: '#ebbcba',
         'rose-muted': '#ebbcba80',
@@ -103,7 +105,7 @@ module.exports = {
         leaf: '#f6c177',
         'leaf-muted': '#f6c17780',
         gold: '#f6c177',
-        'gold-muted': '#f6c17780',
+        'gold-muted': '#f6c1771a',
       },
     },
   ],
