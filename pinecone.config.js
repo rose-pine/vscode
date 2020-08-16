@@ -18,6 +18,7 @@ module.exports = {
         'fg-inactive-symbol': '#57527966',
         'fg-highlight': '#57527980',
         'bg-highlight': '#5752790a',
+        'bg-highlight-active': '#5752791a',
 
         rose: '#e09694',
         'rose-muted': '#e0969480',
@@ -53,6 +54,7 @@ module.exports = {
         'fg-inactive-symbol': '#8C8AA780',
         'fg-highlight': '#8C8AA780',
         'bg-highlight': '#8C8AA71a',
+        'bg-highlight-active': '#8C8AA72a',
 
         rose: '#EA9A97',
         'rose-muted': '#EA9A9780',
@@ -88,6 +90,7 @@ module.exports = {
         'fg-inactive-symbol': '#706e8680',
         'fg-highlight': '#706e8666',
         'bg-highlight': '#706e861a',
+        'bg-highlight-active': '#706e862a',
 
         rose: '#ebbcba',
         'rose-muted': '#ebbcba80',
