@@ -9,7 +9,7 @@ All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
 
 **Color customisations**
 
-The overview ruler (right gutter) and scrollbars cannot be hidden via vscode settings. To hide these elements, modify your `settings.json`.
+The overview ruler (right gutter) and scrollbars cannot be toggled. To hide these elements, modify your `settings.json`.
 
 ```json
 {
