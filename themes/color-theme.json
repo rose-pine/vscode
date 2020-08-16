@@ -125,6 +125,7 @@
     "editorMarkerNavigationInfo.background": "_surface",
     "editorMarkerNavigationWarning.background": "_surface",
     "editorOverviewRuler.addedForeground": "_foam-muted",
+    "editorOverviewRuler.background": "_base",
     "editorOverviewRuler.border": "_transparent",
     "editorOverviewRuler.bracketMatchForeground": "_fg-inactive",
     "editorOverviewRuler.commonContentForeground": "_fg-highlight",
