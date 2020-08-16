@@ -6,6 +6,10 @@
   "publisher": "mvllow",
   "license": "MIT",
   "icon": "assets/icon.png",
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
   "scripts": {
     "build": "npx @mvllow/pinecone"
   },
