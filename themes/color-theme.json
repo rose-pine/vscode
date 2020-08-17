@@ -196,7 +196,7 @@
     "list.errorForeground": "_love",
     "list.filterMatchBackground": "_surface",
     "list.filterMatchBorder": "_rose",
-    "list.focusBackground": "_transparent",
+    "list.focusBackground": "_bg-highlight-active",
     "list.focusForeground": "_fg",
     "list.highlightForeground": "_rose",
     "list.hoverBackground": "_bg-highlight",
