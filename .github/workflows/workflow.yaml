@@ -1,4 +1,8 @@
 on:
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: 'Publish current state' 
   push:
     branches:
       - master
