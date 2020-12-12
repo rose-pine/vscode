@@ -5,7 +5,7 @@ on:
         description: 'Publish current state' 
   push:
     branches:
-      - master
+      - main
     paths-ignore:
       - '.github/**'
       - '.vscode/**'
