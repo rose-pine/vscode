@@ -48,14 +48,29 @@
         "path": "./themes/rp-color-theme.json"
       },
       {
+        "label": "Rosé Pine Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rp-italic-color-theme.json"
+      },
+      {
         "label": "Rosé Pine Moon",
         "uiTheme": "vs-dark",
         "path": "./themes/rp-moon-color-theme.json"
       },
       {
+        "label": "Rosé Pine Moon Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rp-moon-italic-color-theme.json"
+      },
+      {
         "label": "Rosé Pine Dawn",
         "uiTheme": "vs",
         "path": "./themes/rp-dawn-color-theme.json"
+      },
+      {
+        "label": "Rosé Pine Dawn Italic",
+        "uiTheme": "vs",
+        "path": "./themes/rp-dawn-italic-color-theme.json"
       }
     ],
     "iconThemes": [
