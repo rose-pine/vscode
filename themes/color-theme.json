@@ -465,7 +465,8 @@
     {
       "scope": ["entity.other.attribute-name", "entity.other.inherited-class"],
       "settings": {
-        "foreground": "_gold"
+        "foreground": "_gold",
+        "fontStyle": "italic"
       }
     },
 
@@ -556,7 +557,8 @@
     {
       "scope": ["support.function"],
       "settings": {
-        "foreground": "_love"
+        "foreground": "_love",
+        "fontStyle": "italic"
       }
     },
 
