@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "npx @mvllow/pinecone@beta",
-    "version": "auto-changelog -p && git add changelog.md",
+    "version": "auto-changelog -p --ignore-commit-pattern ci: && git add changelog.md",
     "husky:pre-commit": "npm run build && pretty-quick",
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
