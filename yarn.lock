@@ -226,11 +226,6 @@ get-stream@^5.0.0:
   dependencies:
     pump "^3.0.0"
 
-git-format-staged@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/git-format-staged/-/git-format-staged-2.1.0.tgz#9cf11fed8171f23a22adb58ac2877324ea562755"
-  integrity sha512-Ih3EVablJ1Xj/JPMzbXY3Nl0W6NQ9YrA+mad3c9yobODzq9zfOBHMi0h3AScRprm4XtBbIo1oGfwO3cZ4vmg6Q==
-
 graceful-fs@^4.1.15:
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
