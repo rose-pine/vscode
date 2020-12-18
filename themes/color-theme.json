@@ -89,7 +89,7 @@
     "editorBracketMatch.background": "_transparent",
     "editorBracketMatch.border": "_fg-subtle",
     "editorCodeLens.foreground": "_rose",
-    "editorCursor.background": "_transparent",
+    "editorCursor.background": "_base",
     "editorCursor.foreground": "_rose-muted",
     "editorError.border": "_transparent",
     "editorError.foreground": "_love",
