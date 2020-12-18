@@ -309,7 +309,6 @@
     "sideBarTitle.foreground": "_fg-inactive-symbol",
     "statusBar.background": "_base",
     "statusBar.border": "_transparent",
-    ,
     "statusBar.debuggingBackground": "_pine",
     "statusBar.debuggingBorder": "_transparent",
     "statusBar.debuggingForeground": "#fff",
