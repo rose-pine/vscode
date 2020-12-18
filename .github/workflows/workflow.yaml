@@ -2,16 +2,15 @@ on:
   workflow_dispatch:
     inputs:
       tags:
-        description: 'Publish current state' 
+        description: 'Publish current state'
   push:
     branches:
       - main
-    paths-ignore:
-      - '.github/**'
-      - '.vscode/**'
-      - 'demo/**'
-      - '.*'
-      - '*.md'
+    ignore-paths:
+      - node_modules/**
+    paths:
+      - '**/*-color-theme.json'
+      - '**/*-icon-theme.json'
 
 name: Publish
 jobs:
