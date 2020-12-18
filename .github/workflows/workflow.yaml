@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - main
-    ignore-paths:
+    paths-ignore:
       - node_modules/**
     paths:
       - '**/*-color-theme.json'
