@@ -6,8 +6,11 @@ module.exports = {
       type: '',
       colors: {
         transparent: '#0000',
-        'fg-light': '#fff',
-        'overlay-light': '#ffffff26',
+        'debug-bg': '#769b94',
+        'debug-fg': '#fff',
+        'debug-bg-prominent': '#575279A6',
+        'debug-fg-prominent': '#fff',
+        overlay: '#57527933',
 
         border: '#fffdfa',
         surface: '#fffaf3',
@@ -46,8 +49,11 @@ module.exports = {
       type: 'dark',
       colors: {
         transparent: '#0000',
-        'fg-light': '#fff',
-        'overlay-light': '#e0def426',
+        'debug-bg': '#3E8Fb0',
+        'debug-fg': '#fff',
+        'debug-bg-prominent': '#e0def433',
+        'debug-fg-prominent': '#fff',
+        overlay: '#e0def433',
 
         border: '#393552',
         surface: '#26233a',
@@ -86,8 +92,11 @@ module.exports = {
       type: 'dark',
       colors: {
         transparent: '#0000',
-        'fg-light': '#fff',
-        'overlay-light': '#e0def426',
+        'debug-bg': '#3E8Fb0',
+        'debug-fg': '#fff',
+        'debug-bg-prominent': '#e0def440',
+        'debug-fg-prominent': '#fff',
+        overlay: '#e0def440',
 
         border: '#26233a',
         surface: '#1f1d2e',
