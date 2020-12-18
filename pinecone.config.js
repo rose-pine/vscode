@@ -6,6 +6,11 @@ module.exports = {
       type: '',
       colors: {
         transparent: '#0000',
+        'debug-bg': '#769b94',
+        'debug-fg': '#fff',
+        'debug-bg-prominent': '#575279A6',
+        'debug-fg-prominent': '#fff',
+        overlay: '#57527933',
 
         border: '#fffdfa',
         surface: '#fffaf3',
@@ -17,8 +22,10 @@ module.exports = {
         'fg-inactive': '#57527980',
         'fg-inactive-symbol': '#57527966',
         'fg-highlight': '#57527980',
-        'bg-highlight': '#5752790a',
-        'bg-highlight-active': '#5752791a',
+        'bg-highlight-inactive': '#5752790D',
+        'bg-highlight': '#57527914',
+        'bg-highlight-match': '#9a86b140',
+        'bg-highlight-active': '#57527921',
 
         rose: '#e09694',
         'rose-muted': '#e0969480',
@@ -42,6 +49,11 @@ module.exports = {
       type: 'dark',
       colors: {
         transparent: '#0000',
+        'debug-bg': '#3E8Fb0',
+        'debug-fg': '#fff',
+        'debug-bg-prominent': '#e0def433',
+        'debug-fg-prominent': '#fff',
+        overlay: '#e0def433',
 
         border: '#393552',
         surface: '#26233a',
@@ -53,7 +65,9 @@ module.exports = {
         'fg-inactive': '#8C8AA760',
         'fg-inactive-symbol': '#8C8AA780',
         'fg-highlight': '#8C8AA780',
-        'bg-highlight': '#8C8AA71a',
+        'bg-highlight-inactive': '#8C8AA71a',
+        'bg-highlight': '#8C8AA71F',
+        'bg-highlight-match': '#C4A7E740',
         'bg-highlight-active': '#8C8AA72a',
 
         rose: '#EA9A97',
@@ -78,6 +92,11 @@ module.exports = {
       type: 'dark',
       colors: {
         transparent: '#0000',
+        'debug-bg': '#3E8Fb0',
+        'debug-fg': '#fff',
+        'debug-bg-prominent': '#e0def440',
+        'debug-fg-prominent': '#fff',
+        overlay: '#e0def440',
 
         border: '#26233a',
         surface: '#1f1d2e',
@@ -89,8 +108,10 @@ module.exports = {
         'fg-inactive': '#706e86',
         'fg-inactive-symbol': '#706e8680',
         'fg-highlight': '#706e8666',
-        'bg-highlight': '#706e861a',
-        'bg-highlight-active': '#706e862a',
+        'bg-highlight-inactive': '#706e861a',
+        'bg-highlight': '#706e8633',
+        'bg-highlight-match': '#c4a7e740',
+        'bg-highlight-active': '#706e864D',
 
         rose: '#ebbcba',
         'rose-muted': '#ebbcba80',
