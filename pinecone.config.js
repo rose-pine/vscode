@@ -6,6 +6,8 @@ module.exports = {
       type: '',
       colors: {
         transparent: '#0000',
+        'fg-light': '#fff',
+        'overlay-light': '#ffffff26',
 
         border: '#fffdfa',
         surface: '#fffaf3',
@@ -44,6 +46,8 @@ module.exports = {
       type: 'dark',
       colors: {
         transparent: '#0000',
+        'fg-light': '#fff',
+        'overlay-light': '#e0def426',
 
         border: '#393552',
         surface: '#26233a',
@@ -82,6 +86,8 @@ module.exports = {
       type: 'dark',
       colors: {
         transparent: '#0000',
+        'fg-light': '#fff',
+        'overlay-light': '#e0def426',
 
         border: '#26233a',
         surface: '#1f1d2e',
