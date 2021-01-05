@@ -4,7 +4,6 @@ const alpha = (color, value) => {
 
   return color + opacity
 }
-console.log('TEST', alpha('#e0def4', 0.25))
 
 let accents = {
   rose: {
@@ -59,7 +58,7 @@ Object.keys(accents).forEach((accent) => {
 
 module.exports = {
   options: {
-    writeMeta: true,
+    writeMeta: false,
   },
   theme: {
     variants: {
