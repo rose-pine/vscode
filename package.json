@@ -38,30 +38,23 @@
       {
         "label": "Rosé Pine",
         "uiTheme": "vs-dark",
-        "path": "./themes/rp-color-theme.json"
+        "path": "./themes/rose-pine-color-theme.json"
       },
       {
         "label": "Rosé Pine Moon",
         "uiTheme": "vs-dark",
-        "path": "./themes/rp-moon-color-theme.json"
+        "path": "./themes/rose-pine-moon-color-theme.json"
       },
       {
         "label": "Rosé Pine Dawn",
         "uiTheme": "vs",
-        "path": "./themes/rp-dawn-color-theme.json"
-      }
-    ],
-    "iconThemes": [
-      {
-        "id": "rose-pine-icons",
-        "label": "Rosé Pine Icons",
-        "path": "./themes/rp-icon-theme.json"
+        "path": "./themes/rose-pine-dawn-color-theme.json"
       }
     ]
   },
   "devDependencies": {
-    "@mvllow/pinecone": "^0.4.0-beta.1",
     "husky": "^5.0.6",
+    "pinecone-cli": "^1.0.0",
     "pinst": "^2.1.1",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0"
