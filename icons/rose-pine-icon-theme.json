@@ -1,13 +1,13 @@
 {
   "iconDefinitions": {
     "_file": {
-      "iconPath": "../icons/file.svg"
+      "iconPath": "./file.svg"
     },
     "_folder": {
-      "iconPath": "../icons/folder.svg"
+      "iconPath": "./folder.svg"
     },
     "_folder_open": {
-      "iconPath": "../icons/folder-open.svg"
+      "iconPath": "./folder-open.svg"
     }
   },
   "file": "_file",

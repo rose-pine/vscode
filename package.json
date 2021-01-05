@@ -50,6 +50,13 @@
         "uiTheme": "vs",
         "path": "./themes/rose-pine-dawn-color-theme.json"
       }
+    ],
+    "iconThemes": [
+      {
+        "id": "rose-pine-icons",
+        "label": "Rosé Pine Icons",
+        "path": "./icons/rose-pine-icon-theme.json"
+      }
     ]
   },
   "devDependencies": {
