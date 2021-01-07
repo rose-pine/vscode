@@ -1,22 +1,14 @@
 {
   "name": "rose-pine",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "license": "MIT",
   "publisher": "mvllow",
   "engines": {
     "vscode": "^1.22.0"
   },
   "qna": "https://github.com/rose-pine/vscode/discussions",
-  "homepage": "https://github.com/rose-pine/vscode",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rose-pine/vscode"
-  },
-  "bugs": {
-    "url": "https://github.com/rose-pine/vscode/issues",
-    "email": "rose@mellow.dev"
-  },
-  "icon": "assets/icon.png",
+  "repository": "rose-pine/vscode",
+  "icon": "https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png",
   "displayName": "Rosé Pine",
   "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
   "categories": [
@@ -59,27 +51,16 @@
       }
     ]
   },
-  "devDependencies": {
-    "husky": "^5.0.6",
-    "pinecone-cli": "^1.0.0",
-    "pinst": "^2.1.1",
-    "prettier": "^2.2.1",
-    "pretty-quick": "^3.1.0"
-  },
   "scripts": {
     "build": "pinecone",
-    "build:pretty": "npm run build && pretty-quick --staged",
-    "postinstall": "husky install",
-    "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "release": "np --no-publish"
+  },
+  "devDependencies": {
+    "pinecone-cli": "^1.2.3",
+    "prettier": "^2.2.1"
   },
   "prettier": {
     "singleQuote": true,
     "semi": false
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run build:pretty"
-    }
   }
 }

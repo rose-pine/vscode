@@ -16,12 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: 'bump version'
-        uses: 'phips28/gh-action-bump-version@master'
-        with:
-          tag-prefix: ''
       - uses: lannonbr/vsce-action@master
         with:
           args: 'publish -p $VSCE_TOKEN'
         env:
-          VSCE_TOKEN: ${{ secrets.PAT }} # This exists in github settings
+          VSCE_TOKEN: ${{ secrets.PAT }}
