@@ -7,8 +7,7 @@ All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
 [![](https://img.shields.io/badge/Rosé%20Pine%20Theme-191724)](https://github.com/rose-pine/rose-pine-theme)
 ![Publish](https://github.com/rose-pine/vscode/workflows/Publish/badge.svg)
 
-![VSCode with Rosé Pine](https://github.com/rose-pine/vscode/raw/main/assets/rp-example.png)
-![VSCode with Rosé Pine Dawn](https://github.com/rose-pine/vscode/raw/main/assets/rp-dawn-example.png)
+![VSCode with Rosé Pine](https://github.com/rose-pine/vscode/raw/main/screenshots/rose-pine-variants.png)
 
 **Color customisations**
 
