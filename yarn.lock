@@ -335,10 +335,10 @@ path-parse@^1.0.6:
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
 
-pinecone-cli@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/pinecone-cli/-/pinecone-cli-1.2.3.tgz#df31cb50879292a7fe045515e8268b228996a55a"
-  integrity sha512-MeMHVZPh32KRakQQvgkbC00WyY2GnOr42u79QSbHnXaS9tGh5jTxHSV37Qxd+VvzFm4+1KGOgIHTlRs/4iYAkQ==
+pinecone-cli@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/pinecone-cli/-/pinecone-cli-1.3.0.tgz#fa4c276b1c34cabfcefd78df26f0f0ed0999dee1"
+  integrity sha512-EWCLKorW5Iz20olacm71B7MfXg/79/9OOT7jM7KM9ddjy7uRw+/PczKIxYShd8tUFPH4XtHS3a4bcr1FrGSTJg==
   dependencies:
     chalk "^4.1.0"
     meow "^8.1.0"
