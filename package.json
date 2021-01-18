@@ -53,6 +53,7 @@
   },
   "scripts": {
     "build": "pinecone",
+    "watch": "pinecone watch",
     "test": "npm run build && ava",
     "release": "np --no-publish"
   },
