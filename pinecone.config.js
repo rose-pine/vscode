@@ -130,6 +130,16 @@ module.exports = {
         moon: alpha('#6e6a86', 0.4),
         dawn: alpha('#6e6a86', 0.15),
       },
+      diffHighlightInserted: {
+        base: alpha(accents.foam.base, 0.08),
+        moon: alpha(accents.foam.moon, 0.08),
+        dawn: alpha(accents.foam.dawn, 0.1),
+      },
+      diffHighlightRemoved: {
+        base: alpha(accents.love.base, 0.08),
+        moon: alpha(accents.love.moon, 0.08),
+        dawn: alpha(accents.love.dawn, 0.06),
+      },
 
       ...accents,
       ...mutedAccents,
