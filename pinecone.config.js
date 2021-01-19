@@ -94,12 +94,12 @@ module.exports = {
 
       bgBase: {
         base: '#191724',
-        moon: '#26233a',
+        moon: '#232136',
         dawn: '#faf4ed',
       },
       bgSurface: {
         base: '#1f1d2e',
-        moon: '#302C49',
+        moon: '#2E2A46',
         dawn: '#fffaf3',
       },
 
