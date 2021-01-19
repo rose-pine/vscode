@@ -9,7 +9,7 @@ let accents = {
   love: {
     base: '#eb6f92',
     moon: '#eb6f92',
-    dawn: '#c02450',
+    dawn: '#ae4261',
   },
   gold: {
     base: '#f6c177',
