@@ -131,7 +131,7 @@ module.exports = {
         moon: alpha('#817c9c', 0.3),
         dawn: alpha('#6e6a86', 0.15),
       },
-      diffHighlightInserted: alpha(accents.pine, 0.08),
+      diffHighlightInserted: alpha(accents.foam, 0.08),
       diffHighlightRemoved: alpha(accents.love, 0.08),
 
       ...accents,
