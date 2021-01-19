@@ -85,10 +85,14 @@ module.exports = {
         moon: '#e0def4',
         dawn: '#575279',
       },
-      textSubtle: '#6e6a86',
+      textSubtle: {
+        base: '#6e6a86',
+        moon: '#817c9c',
+        dawn: '#6e6a86',
+      },
       textIgnored: {
         base: '#555169',
-        moon: '#555169',
+        moon: '#59546d',
         dawn: '#9893a5',
       },
 
@@ -99,7 +103,7 @@ module.exports = {
       },
       bgSurface: {
         base: '#1f1d2e',
-        moon: '#2e2a46',
+        moon: '#2a273f',
         dawn: '#fffaf3',
       },
 
@@ -112,22 +116,17 @@ module.exports = {
 
       highlight: {
         base: alpha('#6e6a86', 0.2),
-        moon: alpha('#6e6a86', 0.2),
+        moon: alpha('#817c9c', 0.15),
         dawn: alpha('#6e6a86', 0.08),
-      },
-      highlightActive: {
-        base: alpha('#6e6a86', 0.3),
-        moon: alpha('#6e6a86', 0.17),
-        dawn: alpha('#6e6a86', 0.13),
       },
       highlightInactive: {
         base: alpha('#6e6a86', 0.1),
-        moon: alpha('#6e6a86', 0.1),
+        moon: alpha('#817c9c', 0.08),
         dawn: alpha('#6e6a86', 0.05),
       },
       highlightOverlay: {
         base: alpha('#6e6a86', 0.4),
-        moon: alpha('#6e6a86', 0.4),
+        moon: alpha('#817c9c', 0.3),
         dawn: alpha('#6e6a86', 0.15),
       },
       diffHighlightInserted: {
