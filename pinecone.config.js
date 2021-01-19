@@ -1,8 +1,16 @@
 const alpha = (color, value) => {
-  let hex = Math.round(value * 255).toString(16)
-  let opacity = hex.length == 1 ? `0${hex}` : hex // eg. convert 5% from 0xd to 0x0d
-
-  return color + opacity
+  if (typeof color === 'object') {
+    let newValue = {}
+    for (let key in color) {
+      newValue[key] = alpha(color[key], value)
+    }
+    return newValue
+  } else {
+    let hex = Math.round(value * 255).toString(16)
+    let opacity = hex.length === 1 ? `0${hex}` : hex // eg. convert 5% from 0xd to 0x0d
+    if (opacity.length !== 2) opacity = ''
+    return color + opacity
+  }
 }
 
 let accents = {
@@ -42,13 +50,7 @@ let mutedAccents = {}
 
 // create muted shades of each accent colour
 Object.keys(accents).forEach((accent) => {
-  let { base, moon, dawn } = accents[accent]
-
-  mutedAccents[`${accent}Muted`] = {
-    base: alpha(base, 0.5),
-    moon: alpha(moon, 0.5),
-    dawn: alpha(dawn, 0.5),
-  }
+  mutedAccents[`${accent}Muted`] = alpha(accents[accent], 0.5)
 })
 
 module.exports = {
@@ -129,16 +131,8 @@ module.exports = {
         moon: alpha('#817c9c', 0.3),
         dawn: alpha('#6e6a86', 0.15),
       },
-      diffHighlightInserted: {
-        base: alpha(accents.foam.base, 0.08),
-        moon: alpha(accents.foam.moon, 0.08),
-        dawn: alpha(accents.foam.dawn, 0.1),
-      },
-      diffHighlightRemoved: {
-        base: alpha(accents.love.base, 0.08),
-        moon: alpha(accents.love.moon, 0.08),
-        dawn: alpha(accents.love.dawn, 0.06),
-      },
+      diffHighlightInserted: alpha(accents.pine, 0.08),
+      diffHighlightRemoved: alpha(accents.love, 0.08),
 
       ...accents,
       ...mutedAccents,
