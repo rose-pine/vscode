@@ -19,7 +19,7 @@ let accents = {
   rose: {
     base: '#ebbcba',
     moon: '#ea9a97',
-    dawn: '#D7827E',
+    dawn: '#d7827e',
   },
   pine: {
     base: '#31748f',
@@ -99,7 +99,7 @@ module.exports = {
       },
       bgSurface: {
         base: '#1f1d2e',
-        moon: '#2E2A46',
+        moon: '#2e2a46',
         dawn: '#fffaf3',
       },
 
