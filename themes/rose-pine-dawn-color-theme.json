@@ -416,7 +416,7 @@
     "welcomePage.background": "#faf4ed",
     "welcomePage.buttonBackground": "#faf4ed",
     "welcomePage.buttonHoverBackground": "#fffaf3",
-    "widget.shadow": "#0101011a",
+    "widget.shadow": "#f2e9de4d",
     "window.activeBorder": "#fffaf3",
     "window.inactiveBorder": "#fffaf3"
   },

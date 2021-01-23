@@ -101,7 +101,11 @@ module.exports = {
         moon: '#393552',
         dawn: '#fffdfa',
       },
-      uiShadow: alpha('#010101', 0.1),
+      uiShadow: {
+        base: alpha('#010101', 0.1),
+        moon: alpha('#191724', 0.3),
+        dawn: alpha('#f2e9de', 0.3),
+      },
 
       highlight: {
         base: alpha('#6e6a86', 0.2),
