@@ -1,17 +1,4 @@
-const alpha = (color, value) => {
-  if (typeof color === 'object') {
-    let newValue = {}
-    for (let key in color) {
-      newValue[key] = alpha(color[key], value)
-    }
-    return newValue
-  } else {
-    let hex = Math.round(value * 255).toString(16)
-    let opacity = hex.length === 1 ? `0${hex}` : hex // eg. convert 5% from 0xd to 0x0d
-    if (opacity.length !== 2) opacity = ''
-    return color + opacity
-  }
-}
+const { alpha } = require('./node_modules/pinecone-cli/dist')
 
 let accents = {
   love: {
