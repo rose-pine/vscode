@@ -8,7 +8,13 @@ All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
 ![Publish](https://github.com/rose-pine/vscode/workflows/Publish/badge.svg)
 
 ![VSCode with Rosé Pine](https://github.com/rose-pine/vscode/raw/main/screenshots/base.png)
+
+**Moon variant**
+
 ![VSCode with Rosé Pine Moon](https://github.com/rose-pine/vscode/raw/main/screenshots/moon.png)
+
+**Dawn variant**
+
 ![VSCode with Rosé Pine Dawn](https://github.com/rose-pine/vscode/raw/main/screenshots/dawn.png)
 
 **Color customisations**
