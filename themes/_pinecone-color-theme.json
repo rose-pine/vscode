@@ -355,7 +355,7 @@
     "symbolIcon.typeParameterForeground": "_text",
     "symbolIcon.unitForeground": "_text",
     "symbolIcon.variableForeground": "_text",
-    "tab.activeBackground": "_bgSurface",
+    "tab.activeBackground": "_highlightInactive",
     "tab.activeBorder": "_transparent",
     "tab.activeBorderTop": "_transparent",
     "tab.activeForeground": "_text",

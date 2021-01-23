@@ -357,7 +357,7 @@
     "symbolIcon.typeParameterForeground": "#e0def4",
     "symbolIcon.unitForeground": "#e0def4",
     "symbolIcon.variableForeground": "#e0def4",
-    "tab.activeBackground": "#1f1d2e",
+    "tab.activeBackground": "#6e6a861a",
     "tab.activeBorder": "#0000",
     "tab.activeBorderTop": "#0000",
     "tab.activeForeground": "#e0def4",
