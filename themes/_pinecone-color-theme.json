@@ -148,7 +148,7 @@
     "editorSuggestWidget.highlightForeground": "_text",
     "editorSuggestWidget.selectedBackground": "_highlight",
     "editorUnnecessaryCode.border": "_transparent",
-    "editorUnnecessaryCode.opacity": "_textIgnored",
+    "editorUnnecessaryCode.opacity": "_unusedOpacity",
     "editorWarning.border": "_transparent",
     "editorWarning.foreground": "_gold",
     "editorWhitespace.foreground": "_textIgnored",

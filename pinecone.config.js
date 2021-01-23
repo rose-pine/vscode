@@ -85,6 +85,8 @@ module.exports = {
         dawn: '#9893a5',
       },
 
+      unusedOpacity: alpha('#000', 0.5),
+
       bgBase: {
         base: '#191724',
         moon: '#232136',
