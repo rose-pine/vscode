@@ -513,7 +513,7 @@
     {
       "scope": ["punctuation.definition.string"],
       "settings": {
-        "foreground": "#c4a7e7"
+        "foreground": "#f6c177"
       }
     },
     {
@@ -531,7 +531,7 @@
     {
       "scope": ["string"],
       "settings": {
-        "foreground": "#c4a7e7"
+        "foreground": "#f6c177"
       }
     },
     {

@@ -517,7 +517,7 @@
     {
       "scope": ["punctuation.definition.string"],
       "settings": {
-        "foreground": "_iris"
+        "foreground": "_gold"
       }
     },
     {
@@ -537,7 +537,7 @@
     {
       "scope": ["string"],
       "settings": {
-        "foreground": "_iris"
+        "foreground": "_gold"
       }
     },
 
