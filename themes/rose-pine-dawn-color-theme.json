@@ -365,6 +365,7 @@
     "tab.border": "#0000",
     "tab.hoverBackground": "#6e6a8614",
     "tab.hoverBorder": "#0000",
+    "tab.hoverForeground": "#575279",
     "tab.inactiveBackground": "#0000",
     "tab.inactiveForeground": "#9893a5",
     "tab.inactiveModifiedBorder": "#0000",

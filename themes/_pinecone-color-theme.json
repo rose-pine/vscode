@@ -363,6 +363,7 @@
     "tab.border": "_transparent",
     "tab.hoverBackground": "_highlight",
     "tab.hoverBorder": "_transparent",
+    "tab.hoverForeground": "_text",
     "tab.inactiveBackground": "_transparent",
     "tab.inactiveForeground": "_textIgnored",
     "tab.inactiveModifiedBorder": "_transparent",
