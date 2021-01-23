@@ -3,15 +3,22 @@
     "_file": {
       "iconPath": "./file.svg"
     },
+    "_file-special": {
+      "iconPath": "./file-special.svg"
+    },
     "_folder": {
       "iconPath": "./folder.svg"
     },
-    "_folder_open": {
+    "_folder-open": {
       "iconPath": "./folder-open.svg"
     }
   },
   "file": "_file",
+  "fileNames": {
+    "_pinecone-color-theme.json": "_file-special",
+    "pinecone.config.js": "_file-special"
+  },
   "folder": "_folder",
-  "folderExpanded": "_folder_open",
+  "folderExpanded": "_folder-open",
   "hidesExplorerArrows": true
 }
