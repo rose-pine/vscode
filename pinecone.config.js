@@ -61,6 +61,7 @@ module.exports = {
     },
     colors: {
       transparent: '#0000',
+      unusedOpacity: alpha('#000', 0.5),
 
       primary: accents.rose,
       onPrimary: {
@@ -85,8 +86,6 @@ module.exports = {
         dawn: '#9893a5',
       },
 
-      unusedOpacity: alpha('#000', 0.5),
-
       bgBase: {
         base: '#191724',
         moon: '#232136',
@@ -97,12 +96,12 @@ module.exports = {
         moon: '#2a273f',
         dawn: '#fffaf3',
       },
-
-      uiBorder: {
+      bgOverlay: {
         base: '#26233a',
         moon: '#393552',
-        dawn: '#fffdfa',
+        dawn: '#f2e9de',
       },
+
       uiShadow: {
         base: alpha('#010101', 0.1),
         moon: alpha('#191724', 0.3),
