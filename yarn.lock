@@ -1304,6 +1304,11 @@ ms@^2.1.3:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
+node-watch@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/node-watch/-/node-watch-0.7.1.tgz#0caaa6a6833b0d533487f953c52a6c787769ba7c"
+  integrity sha512-UWblPYuZYrkCQCW5PxAwYSxaELNBLUckrTBBk8xr1/bUgyOkYYTsUcV4e3ytcazFEOyiRyiUrsG37pu6I0I05g==
+
 normalize-package-data@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.5.0.tgz"
@@ -1492,13 +1497,14 @@ pify@^4.0.1:
   resolved "https://registry.yarnpkg.com/pify/-/pify-4.0.1.tgz"
   integrity sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==
 
-pinecone-cli@^1.4.2:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/pinecone-cli/-/pinecone-cli-1.4.2.tgz#a28172e37be717d9ddb115c4ceec9a8e6d6a2b23"
-  integrity sha512-M1IapO/FGq54CN2SmfaWDszwOuVXSQND4ZV3YB7dc7JgzjLezeOyPDrI9KXlKtzxTYr+HNoVeLqKYzcKrzYRkA==
+pinecone-cli@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/pinecone-cli/-/pinecone-cli-1.6.0.tgz#01f0f3436961d173a460f512192eacd147e1398a"
+  integrity sha512-oV9cn7U+pJAKzHMMEs+DBvWPFjrq5tcWrJkpSRTaG20YhWOXYnsySSupTFaXsiVFxKXAl1ywvRABgeFGwf7SNg==
   dependencies:
     chalk "^4.1.0"
     meow "^8.1.0"
+    node-watch "^0.7.1"
     prettier "^2.2.1"
     slugify "^1.4.6"
 
