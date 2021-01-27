@@ -1492,10 +1492,10 @@ pify@^4.0.1:
   resolved "https://registry.yarnpkg.com/pify/-/pify-4.0.1.tgz"
   integrity sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==
 
-pinecone-cli@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/pinecone-cli/-/pinecone-cli-1.4.1.tgz#463afda0465888675027c22dd4b91d162b671e6c"
-  integrity sha512-E9842N0ehyWRHjBRbYhanorly5wuwMPoEZdGqwkShOB9g7kJZOGdongHL2N9FEwiqZauEvKyrdXQefSE4+utbg==
+pinecone-cli@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/pinecone-cli/-/pinecone-cli-1.4.2.tgz#a28172e37be717d9ddb115c4ceec9a8e6d6a2b23"
+  integrity sha512-M1IapO/FGq54CN2SmfaWDszwOuVXSQND4ZV3YB7dc7JgzjLezeOyPDrI9KXlKtzxTYr+HNoVeLqKYzcKrzYRkA==
   dependencies:
     chalk "^4.1.0"
     meow "^8.1.0"

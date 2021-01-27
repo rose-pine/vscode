@@ -1,4 +1,4 @@
-const { alpha } = require('./node_modules/pinecone-cli/dist')
+const { alpha } = require('pinecone-cli')
 
 let accents = {
   love: {
