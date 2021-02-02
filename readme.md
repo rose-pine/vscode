@@ -33,4 +33,4 @@
 ![VSCode with Rosé Pine Dawn](https://github.com/rose-pine/vscode/raw/main/screenshots/dawn.png)
 
 # Thanks to
-[mvllow](https://twitter.com/mvllow) & [fvrests](https://twitter.com/fvrests)
+[mvllow](https://github.com/mvllow) & [fvrests](https://github.com/fvrests)
