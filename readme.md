@@ -11,14 +11,14 @@
     </a>
 </p>
 
-# Usage
+## Usage
 
 1. Open VSCode
 2. Search for `Rosé Pine` in extensions
 3. Install the theme and choose your variant in `Preferences: Color theme`
 4. You can also enable the included icon theme in `Preferences: File Icon Theme`
 
-# Gallery
+## Gallery
 
 **Base variant**
 
