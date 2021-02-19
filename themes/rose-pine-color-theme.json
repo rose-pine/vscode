@@ -48,6 +48,7 @@
     "debugToolBar.border": "#26233a",
     "descriptionForeground": "#6e6a86",
     "diffEditor.border": "#26233a",
+    "diffEditor.diagonalFill": "#6e6a8666",
     "diffEditor.insertedTextBackground": "#9ccfd814",
     "diffEditor.insertedTextBorder": "#9ccfd880",
     "diffEditor.removedTextBackground": "#eb6f9214",

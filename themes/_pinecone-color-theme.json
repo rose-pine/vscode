@@ -46,6 +46,7 @@
     "debugToolBar.border": "_bgOverlay",
     "descriptionForeground": "_textSubtle",
     "diffEditor.border": "_bgOverlay",
+    "diffEditor.diagonalFill": "_highlightOverlay",
     "diffEditor.insertedTextBackground": "_diffHighlightInserted",
     "diffEditor.insertedTextBorder": "_foamMuted",
     "diffEditor.removedTextBackground": "_diffHighlightRemoved",
