@@ -164,6 +164,7 @@
     "extensionButton.prominentBackground": "_transparent",
     "extensionButton.prominentForeground": "_primary",
     "extensionButton.prominentHoverBackground": "_highlight",
+    "extensionIcon.starForeground": "_iris",
     "focusBorder": "_transparent",
     "foreground": "_text",
     "gitDecoration.addedResourceForeground": "_foam",

@@ -166,6 +166,7 @@
     "extensionButton.prominentBackground": "#0000",
     "extensionButton.prominentForeground": "#d7827e",
     "extensionButton.prominentHoverBackground": "#6e6a8614",
+    "extensionIcon.starForeground": "#907aa9",
     "focusBorder": "#0000",
     "foreground": "#575279",
     "gitDecoration.addedResourceForeground": "#56949f",
