@@ -296,6 +296,7 @@
     "settings.dropdownBorder": "#26233a",
     "settings.dropdownForeground": "#e0def4",
     "settings.dropdownListBorder": "#0000",
+    "settings.focusedRowBackground": "#1f1d2e",
     "settings.headerForeground": "#e0def4",
     "settings.modifiedItemIndicator": "#ebbcba",
     "settings.numberInputBackground": "#1f1d2e",

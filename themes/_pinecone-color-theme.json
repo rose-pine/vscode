@@ -294,6 +294,7 @@
     "settings.dropdownBorder": "_bgOverlay",
     "settings.dropdownForeground": "_text",
     "settings.dropdownListBorder": "_transparent",
+    "settings.focusedRowBackground": "_bgSurface",
     "settings.headerForeground": "_text",
     "settings.modifiedItemIndicator": "_primary",
     "settings.numberInputBackground": "_bgSurface",
