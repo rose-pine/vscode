@@ -20,15 +20,15 @@
 
 ## Gallery
 
-**Base variant**
+**Rosé Pine**
 
 ![VSCode with Rosé Pine](https://github.com/rose-pine/vscode/raw/main/screenshots/base.png)
 
-**Moon variant**
+**Rosé Pine Moon**
 
 ![VSCode with Rosé Pine Moon](https://github.com/rose-pine/vscode/raw/main/screenshots/moon.png)
 
-**Dawn variant**
+**Rosé Pine Dawn**
 
 ![VSCode with Rosé Pine Dawn](https://github.com/rose-pine/vscode/raw/main/screenshots/dawn.png)
 
