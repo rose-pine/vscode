@@ -106,6 +106,7 @@
     "editorGutter.background": "#0000",
     "editorGutter.commentRangeForeground": "#6e6a86",
     "editorGutter.deletedBackground": "#b4637a",
+    "editorGutter.foldingControlForeground": "#907aa9",
     "editorGutter.modifiedBackground": "#d7827e",
     "editorHint.border": "#0000",
     "editorHint.foreground": "#6e6a86",

@@ -104,6 +104,7 @@
     "editorGutter.background": "_transparent",
     "editorGutter.commentRangeForeground": "_textSubtle",
     "editorGutter.deletedBackground": "_love",
+    "editorGutter.foldingControlForeground": "_iris",
     "editorGutter.modifiedBackground": "_primary",
     "editorHint.border": "_transparent",
     "editorHint.foreground": "_textSubtle",
