@@ -276,6 +276,7 @@
     "problemsWarningIcon.foreground": "#f6c177",
     "progressBar.background": "#9ccfd8",
     "quickInput.background": "#1f1d2e",
+    "quickInput.list.focusBackground": "#6e6a8666",
     "quickInput.foreground": "#6e6a86",
     "scrollbar.shadow": "#0000",
     "scrollbarSlider.activeBackground": "#6e6a8666",

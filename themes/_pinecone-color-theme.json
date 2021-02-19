@@ -274,6 +274,7 @@
     "problemsWarningIcon.foreground": "_gold",
     "progressBar.background": "_foam",
     "quickInput.background": "_bgSurface",
+    "quickInput.list.focusBackground": "_highlightOverlay",
     "quickInput.foreground": "_textSubtle",
     "scrollbar.shadow": "_transparent",
     "scrollbarSlider.activeBackground": "_highlightOverlay",
