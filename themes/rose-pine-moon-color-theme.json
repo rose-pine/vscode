@@ -505,6 +505,31 @@
       }
     },
     {
+      "scope": "meta.directive.vue",
+      "settings": {
+        "foreground": "#c4a7e7",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.property-name.css",
+      "settings": {
+        "foreground": "#9ccfd8"
+      }
+    },
+    {
+      "scope": "meta.property-value.css",
+      "settings": {
+        "foreground": "#f6c177"
+      }
+    },
+    {
+      "scope": "meta.tag.other.html",
+      "settings": {
+        "foreground": "#817c9c"
+      }
+    },
+    {
       "scope": ["punctuation"],
       "settings": {
         "foreground": "#817c9c"
