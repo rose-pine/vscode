@@ -172,6 +172,7 @@
     "gitDecoration.deletedResourceForeground": "_textSubtle",
     "gitDecoration.ignoredResourceForeground": "_textIgnored",
     "gitDecoration.modifiedResourceForeground": "_primary",
+    "gitDecoration.renamedResourceForeground": "_iris",
     "gitDecoration.submoduleResourceForeground": "_pine",
     "gitDecoration.untrackedResourceForeground": "_pine",
     "icon.foreground": "_textSubtle",
