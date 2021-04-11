@@ -32,5 +32,31 @@
 
 ![VSCode with Rosé Pine Dawn](https://github.com/rose-pine/vscode/raw/main/screenshots/dawn.png)
 
-# Thanks to
+## Disable italics
+
+Add this snippet to your `settings.json` to disable italics for Rosé Pine
+
+```json
+"editor.tokenColorCustomizations": {
+  "[Rosé Pine]": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "entity.other.attribute-name",
+          "entity.other.inherited-class",
+          "support.function",
+          "variable",
+          "meta.directive.vue"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  }
+}
+```
+
+## Thanks to
 [mvllow](https://github.com/mvllow) & [fvrests](https://github.com/fvrests)
