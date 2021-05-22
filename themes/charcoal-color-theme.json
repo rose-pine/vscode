@@ -1,4 +1,6 @@
 {
+  "name": "Charcoal",
+  "type": "dark",
   "colors": {
     "activityBar.activeBackground": "_transparent",
     "activityBar.activeBorder": "_transparent",
@@ -433,7 +435,6 @@
         "fontStyle": "italic"
       }
     },
-
     {
       "scope": ["constant"],
       "settings": {
@@ -450,7 +451,6 @@
         "foreground": "_rose"
       }
     },
-
     {
       "scope": ["entity.name"],
       "settings": {
@@ -475,7 +475,6 @@
         "fontStyle": "italic"
       }
     },
-
     {
       "scope": ["invalid"],
       "settings": {
@@ -488,14 +487,12 @@
         "foreground": "_textSubtle"
       }
     },
-
     {
       "scope": ["keyword"],
       "settings": {
         "foreground": "_pine"
       }
     },
-
     {
       "scope": ["meta.tag", "meta.brace"],
       "settings": {
@@ -557,21 +554,18 @@
         "foreground": "_textIgnored"
       }
     },
-
     {
       "scope": ["storage.type", "storage.modifier"],
       "settings": {
         "foreground": "_pine"
       }
     },
-
     {
       "scope": ["string"],
       "settings": {
         "foreground": "_gold"
       }
     },
-
     {
       "scope": ["support"],
       "settings": {
@@ -591,7 +585,6 @@
         "fontStyle": "italic"
       }
     },
-
     {
       "scope": ["variable"],
       "settings": {
