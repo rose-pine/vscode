@@ -59,4 +59,5 @@ Add this snippet to your `settings.json` to disable italics for Rosé Pine
 ```
 
 ## Thanks to
+
 [mvllow](https://github.com/mvllow) & [fvrests](https://github.com/fvrests)

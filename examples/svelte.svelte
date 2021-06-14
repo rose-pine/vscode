@@ -1,25 +1,25 @@
-{#if someFruit.isSweet}
-    <h2>The best time to eat {someFruit.name} is { whenToEatSweetFruits }!</h2>
-{:else}
-    <h2>The best time to eat {someFruit.name} is { whenToEatSourFruits }!</h2>
-{/if}
-
 <script lang="ts">
-    interface Fruit {
-        name: string
-        isSweet: boolean
-    }
+  interface Fruit {
+    name: string;
+    isSweet: boolean;
+  }
 
-    const whenToEatSweetFruits = 'all the time'
-    const whenToEatSourFruits = 'all the time'
-    const someFruit: Fruit = {
-        name: "pitaya",
-        isSweet: true
-    }
+  const whenToEatSweetFruits = "all the time";
+  const whenToEatSourFruits = "all the time";
+  const someFruit: Fruit = {
+    name: "pitaya",
+    isSweet: true,
+  };
 </script>
 
+{#if someFruit.isSweet}
+  <h2>The best time to eat {someFruit.name} is {whenToEatSweetFruits}!</h2>
+{:else}
+  <h2>The best time to eat {someFruit.name} is {whenToEatSourFruits}!</h2>
+{/if}
+
 <style>
-    h2 {
-        color: palevioletred;
-    }
+  h2 {
+    color: palevioletred;
+  }
 </style>
