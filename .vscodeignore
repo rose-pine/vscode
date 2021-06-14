@@ -3,5 +3,6 @@
 .gitignore
 .github/
 demo/
+examples/**
 themes/_pinecone-color-theme.json
 pinecone.config.js
