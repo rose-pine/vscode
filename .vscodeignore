@@ -1,7 +1,8 @@
 .vscode/**
 .vscode-test/**
 .gitignore
-.github/
-demo/
+.github/**
+examples/**
 themes/_pinecone-color-theme.json
 pinecone.config.js
+test.js
