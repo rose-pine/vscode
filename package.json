@@ -3,6 +3,7 @@
   "version": "0.11.0",
   "license": "MIT",
   "publisher": "mvllow",
+  "type": "module",
   "engines": {
     "vscode": "^1.22.0"
   },
@@ -54,11 +55,9 @@
   "scripts": {
     "build": "pinecone",
     "watch": "pinecone watch",
-    "test": "npm run build && ava",
     "release": "np --no-publish"
   },
   "devDependencies": {
-    "ava": "^3.15.0",
-    "pinecone-cli": "^1.6.0"
+    "pinecone-cli": "^2.1.1"
   }
 }

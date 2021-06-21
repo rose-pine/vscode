@@ -1,4 +1,4 @@
-const { alpha } = require("pinecone-cli");
+import { alpha, defineConfig } from "pinecone-cli";
 
 let accents = {
   love: {
@@ -40,10 +40,10 @@ Object.keys(accents).forEach((accent) => {
   mutedAccents[`${accent}Muted`] = alpha(accents[accent], 0.5);
 });
 
-module.exports = {
-  options: {
-    writeMeta: false,
-  },
+export default defineConfig({
+  source: "./themes/_pinecone-color-theme.json",
+  output: "./themes",
+  prefix: "_",
   theme: {
     variants: {
       base: {
@@ -130,4 +130,4 @@ module.exports = {
       ...mutedAccents,
     },
   },
-};
+});
