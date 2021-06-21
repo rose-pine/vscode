@@ -1,17 +1,28 @@
 {
   "name": "rose-pine",
   "version": "0.11.0",
-  "license": "MIT",
   "publisher": "mvllow",
-  "type": "module",
+  "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/rose-pine/vscode"
+  },
+  "funding": "https://github.com/rose-pine/vscode?sponsor=1",
+  "author": {
+    "name": "Rosé Pine",
+    "email": "rose@mellow.dev"
+  },
+  "types": "module",
   "engines": {
     "vscode": "^1.22.0"
   },
-  "qna": "https://github.com/rose-pine/vscode/discussions",
-  "repository": "rose-pine/vscode",
+  "scripts": {
+    "build": "pinecone",
+    "watch": "pinecone watch",
+    "release": "np --no-publish"
+  },
   "icon": "assets/icon.png",
   "displayName": "Rosé Pine",
-  "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
   "categories": [
     "Themes"
   ],
@@ -51,11 +62,6 @@
         "path": "./icons/rose-pine-icon-theme.json"
       }
     ]
-  },
-  "scripts": {
-    "build": "pinecone",
-    "watch": "pinecone watch",
-    "release": "np --no-publish"
   },
   "devDependencies": {
     "pinecone-cli": "^2.1.1"

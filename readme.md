@@ -16,21 +16,21 @@
 1. Open VSCode
 2. Search for `Rosé Pine` in extensions
 3. Install the theme and choose your variant in `Preferences: Color theme`
-4. You can also enable the included icon theme in `Preferences: File Icon Theme`
+4. Optionally enable the included icon theme in `Preferences: File Icon Theme`
 
 ## Gallery
 
 **Rosé Pine**
 
-![VSCode with Rosé Pine](https://github.com/rose-pine/vscode/raw/main/screenshots/base.png)
+![VSCode with Rosé Pine](assets/rose-pine.png)
 
 **Rosé Pine Moon**
 
-![VSCode with Rosé Pine Moon](https://github.com/rose-pine/vscode/raw/main/screenshots/moon.png)
+![VSCode with Rosé Pine Moon](assets/rose-pine-moon.png)
 
 **Rosé Pine Dawn**
 
-![VSCode with Rosé Pine Dawn](https://github.com/rose-pine/vscode/raw/main/screenshots/dawn.png)
+![VSCode with Rosé Pine Dawn](assets/rose-pine-dawn.png)
 
 ## Disable italics
 
@@ -60,4 +60,5 @@ Add this snippet to your `settings.json` to disable italics for Rosé Pine
 
 ## Thanks to
 
-[mvllow](https://github.com/mvllow) & [fvrests](https://github.com/fvrests)
+- [mvllow](https://github.com/mvllow)
+- [fvrests](https://github.com/fvrests)
