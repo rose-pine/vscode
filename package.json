@@ -12,7 +12,7 @@
     "name": "Rosé Pine",
     "email": "rose@mellow.dev"
   },
-  "types": "module",
+  "type": "module",
   "engines": {
     "vscode": "^1.22.0"
   },
