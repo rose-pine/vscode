@@ -19,7 +19,7 @@
   "scripts": {
     "build": "pinecone",
     "watch": "pinecone watch",
-    "release": "np --no-publish"
+    "release": "np --no-publish --no-tests"
   },
   "icon": "assets/icon.png",
   "displayName": "Rosé Pine",
