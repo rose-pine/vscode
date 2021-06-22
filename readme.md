@@ -22,15 +22,15 @@
 
 **Rosé Pine**
 
-![VSCode with Rosé Pine](assets/rose-pine.png)
+![VSCode with Rosé Pine](https://github.com/rose-pine/vscode/raw/main/assets/rose-pine.png)
 
 **Rosé Pine Moon**
 
-![VSCode with Rosé Pine Moon](assets/rose-pine-moon.png)
+![VSCode with Rosé Pine Moon](https://github.com/rose-pine/vscode/raw/main/assets/rose-pine-moon.png)
 
 **Rosé Pine Dawn**
 
-![VSCode with Rosé Pine Dawn](assets/rose-pine-dawn.png)
+![VSCode with Rosé Pine Dawn](https://github.com/rose-pine/vscode/raw/main/assets/rose-pine-dawn.png)
 
 ## Disable italics
 
