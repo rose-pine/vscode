@@ -419,7 +419,9 @@
     "welcomePage.buttonHoverBackground": "#f2e9de",
     "widget.shadow": "#f2e9de4d",
     "window.activeBorder": "#fffaf3",
-    "window.inactiveBorder": "#fffaf3"
+    "window.inactiveBorder": "#fffaf3",
+    "inlineparameters.annotationBackground": "#0000",
+    "inlineparameters.annotationForeground": "#6e6a86"
   },
   "tokenColors": [
     {

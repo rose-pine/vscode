@@ -556,7 +556,11 @@
     "welcomePage.tileShadow.": "",
     "widget.shadow": "_uiShadow",
     "window.activeBorder": "_bgSurface",
-    "window.inactiveBorder": "_bgSurface"
+    "window.inactiveBorder": "_bgSurface",
+
+    // Plugins
+    "inlineparameters.annotationBackground": "_transparent",
+    "inlineparameters.annotationForeground": "_textSubtle"
   },
   "tokenColors": [
     {
