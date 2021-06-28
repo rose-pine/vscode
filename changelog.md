@@ -2,7 +2,7 @@
 
 ## v1.1.0
 
-- Add support for (Inline Parameters)[https://marketplace.visualstudio.com/items?itemName=liamhammett.inline-parameters]
+- Add support for [Inline Parameters](https://marketplace.visualstudio.com/items?itemName=liamhammett.inline-parameters)
 
 ## v1.0.0
 
