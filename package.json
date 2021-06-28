@@ -64,6 +64,7 @@
     ]
   },
   "devDependencies": {
-    "pinecone-cli": "^2.1.1"
+    "@rose-pine/palette": "^0.1.0",
+    "pinecone-cli": "^2.5.0"
   }
 }

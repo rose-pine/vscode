@@ -1,10 +1,12 @@
 lockfileVersion: 5.3
 
 specifiers:
-  pinecone-cli: ^2.1.1
+  '@rose-pine/palette': ^0.1.0
+  pinecone-cli: ^2.5.0
 
 devDependencies:
-  pinecone-cli: 2.1.1
+  '@rose-pine/palette': 0.1.0
+  pinecone-cli: 2.5.0
 
 packages:
 
@@ -27,6 +29,11 @@ packages:
       '@babel/helper-validator-identifier': 7.14.5
       chalk: 2.4.2
       js-tokens: 4.0.0
+    dev: true
+
+  /@rose-pine/palette/0.1.0:
+    resolution: {integrity: sha512-DakI2DXuEWhmaIzmBX3g6Q36lWP6Gk1YkvEDZJALWGIif2AlDOkNSWrNdy3NLC+HCmUohdKwX3UtBzZFtk7WgA==}
+    engines: {node: '>=12'}
     dev: true
 
   /@types/minimist/1.2.1:
@@ -414,8 +421,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pinecone-cli/2.1.1:
-    resolution: {integrity: sha512-Ny2TBerjkQvU0UA3xDRg7wjEzhn9jQK2hSigPjUvRu9TzSUP7qRQ9+sP3O40zgimjQW1W38l8Eup0xoO5KI/0g==}
+  /pinecone-cli/2.5.0:
+    resolution: {integrity: sha512-6laYpmD9h5WQ4Sd4ANqBKbL6by+OLtviHWj/D0pJkX1VBFQc+0ccJDU/yvrtw7WyMRGEQONmDhMDJjrYrXsp4w==}
     engines: {node: '>=12'}
     hasBin: true
     dependencies:
@@ -424,12 +431,12 @@ packages:
       colorish: 0.1.2
       escape-string-regexp: 5.0.0
       meow: 10.0.1
-      prettier: 2.3.1
+      prettier: 2.3.2
       slugify: 1.5.3
     dev: true
 
-  /prettier/2.3.1:
-    resolution: {integrity: sha512-p+vNbgpLjif/+D+DwAZAbndtRrR0md0MwfmOVN9N+2RgyACMT+7tfaRnT+WDPkqnuVwleyuBIG2XBxKDme3hPA==}
+  /prettier/2.3.2:
+    resolution: {integrity: sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
