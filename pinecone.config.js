@@ -1,52 +1,35 @@
 import { alpha, defineConfig } from "pinecone-cli";
+import palette from "@rose-pine/palette";
 
-let accents = {
-  love: {
-    base: "#eb6f92",
-    moon: "#eb6f92",
-    dawn: "#b4637a",
-  },
-  gold: {
-    base: "#f6c177",
-    moon: "#f6c177",
-    dawn: "#ea9d34",
-  },
-  rose: {
-    base: "#ebbcba",
-    moon: "#ea9a97",
-    dawn: "#d7827e",
-  },
-  pine: {
-    base: "#31748f",
-    moon: "#3e8fb0",
-    dawn: "#286983",
-  },
-  foam: {
-    base: "#9ccfd8",
-    moon: "#9ccfd8",
-    dawn: "#56949f",
-  },
-  iris: {
-    base: "#c4a7e7",
-    moon: "#c4a7e7",
-    dawn: "#907aa9",
-  },
+const { love, gold, rose, pine, foam, iris } = palette;
+
+const accents = {
+  love,
+  loveMuted: alpha(love, 0.5),
+  gold,
+  goldMuted: alpha(gold, 0.5),
+  rose: rose,
+  roseMuted: alpha(rose, 0.5),
+  pine,
+  pineMuted: alpha(pine, 0.5),
+  foam,
+  foamMuted: alpha(foam, 0.5),
+  iris,
+  irisMuted: alpha(iris, 0.5),
 };
-
-let mutedAccents = {};
-
-// create muted shades of each accent colour
-Object.keys(accents).forEach((accent) => {
-  mutedAccents[`${accent}Muted`] = alpha(accents[accent], 0.5);
-});
 
 export default defineConfig({
   source: "./themes/_pinecone-color-theme.json",
   output: "./themes",
   prefix: "_",
+  options: {
+    experimental: {
+      removeEmptyThemeValues: true,
+    },
+  },
   theme: {
     variants: {
-      base: {
+      core: {
         name: "Rosé Pine",
         type: "dark",
       },
@@ -64,62 +47,73 @@ export default defineConfig({
       unusedOpacity: alpha("#000", 0.5),
 
       primary: accents.rose,
+      primaryHover: alpha(accents.rose, 0.9),
       onPrimary: {
-        base: "#191724",
+        core: "#191724",
+        moon: "#26233a",
+        dawn: "#faf4ed",
+      },
+
+      secondary: accents.iris,
+      secondaryHover: alpha(accents.iris, 0.9),
+      onSecondary: {
+        core: "#191724",
         moon: "#26233a",
         dawn: "#faf4ed",
       },
 
       text: {
-        base: "#e0def4",
+        core: "#e0def4",
         moon: "#e0def4",
         dawn: "#575279",
       },
+      textOnLight: "#191724",
+      textOnDark: "#e0def4",
       textSubtle: {
-        base: "#6e6a86",
+        core: "#6e6a86",
         moon: "#817c9c",
         dawn: "#6e6a86",
       },
       textIgnored: {
-        base: "#555169",
+        core: "#555169",
         moon: "#59546d",
         dawn: "#9893a5",
       },
 
       bgBase: {
-        base: "#191724",
+        core: "#191724",
         moon: "#232136",
         dawn: "#faf4ed",
       },
       bgSurface: {
-        base: "#1f1d2e",
+        core: "#1f1d2e",
         moon: "#2a273f",
         dawn: "#fffaf3",
       },
       bgOverlay: {
-        base: "#26233a",
+        core: "#26233a",
         moon: "#393552",
         dawn: "#f2e9de",
       },
 
       uiShadow: {
-        base: alpha("#010101", 0.1),
+        core: alpha("#010101", 0.1),
         moon: alpha("#191724", 0.3),
         dawn: alpha("#f2e9de", 0.3),
       },
 
       highlight: {
-        base: alpha("#6e6a86", 0.2),
+        core: alpha("#6e6a86", 0.2),
         moon: alpha("#817c9c", 0.15),
         dawn: alpha("#6e6a86", 0.08),
       },
       highlightInactive: {
-        base: alpha("#6e6a86", 0.1),
+        core: alpha("#6e6a86", 0.1),
         moon: alpha("#817c9c", 0.08),
         dawn: alpha("#6e6a86", 0.05),
       },
       highlightOverlay: {
-        base: alpha("#6e6a86", 0.4),
+        core: alpha("#6e6a86", 0.4),
         moon: alpha("#817c9c", 0.3),
         dawn: alpha("#6e6a86", 0.15),
       },
@@ -127,7 +121,6 @@ export default defineConfig({
       diffHighlightRemoved: alpha(accents.love, 0.08),
 
       ...accents,
-      ...mutedAccents,
     },
   },
 });

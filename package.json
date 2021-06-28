@@ -1,6 +1,6 @@
 {
   "name": "rose-pine",
-  "version": "0.11.1",
+  "version": "1.0.0",
   "publisher": "mvllow",
   "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
   "license": "MIT",
@@ -14,7 +14,7 @@
   },
   "type": "module",
   "engines": {
-    "vscode": "^1.22.0"
+    "vscode": "^1.57.0"
   },
   "scripts": {
     "build": "pinecone",
@@ -64,6 +64,7 @@
     ]
   },
   "devDependencies": {
-    "pinecone-cli": "^2.1.1"
+    "@rose-pine/palette": "^0.1.0",
+    "pinecone-cli": "^2.5.0"
   }
 }
