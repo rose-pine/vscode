@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.3.0
+
+- Update `list.activeSelectionForeground` from `iris` to `text`
+- Set `editorSuggestWidget.highlightForeground` to `rose`
+- Set `editorSuggestWidget.selectedBackground` to `highlight`
+
 ## v1.2.0
 
 - Update secondary button to be more neutral

@@ -189,8 +189,8 @@
     "editorSuggestWidget.border": "_transparent",
     "editorSuggestWidget.focusHighlightForeground": "_primary",
     "editorSuggestWidget.foreground": "_textSubtle",
-    "editorSuggestWidget.highlightForeground": "", // Inherited from `list.activeSelectionForeground`
-    "editorSuggestWidget.selectedBackground": "", // Inherited from `list.activeSelectionBackground`
+    "editorSuggestWidget.highlightForeground": "_primary",
+    "editorSuggestWidget.selectedBackground": "_highlight",
     "editorSuggestWidget.selectedForeground": "_text",
     "editorUnnecessaryCode.border": "_transparent",
     "editorUnnecessaryCode.opacity": "_unusedOpacity",
@@ -239,7 +239,7 @@
     "inputValidation.warningBorder": "_transparent",
     "inputValidation.warningForeground": "_foamMuted",
     "list.activeSelectionBackground": "_highlight",
-    "list.activeSelectionForeground": "_primary",
+    "list.activeSelectionForeground": "_text",
     "list.deemphasizedForeground": "_textSubtle",
     "list.dropBackground": "_bgSurface",
     "list.errorForeground": "_love",
