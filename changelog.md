@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.2.0
+
+- Update secondary button to be more neutral
+
 ## v1.1.0
 
 - Add support for [Inline Parameters](https://marketplace.visualstudio.com/items?itemName=liamhammett.inline-parameters)
