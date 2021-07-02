@@ -1,20 +1,28 @@
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
-    paths:
-      - "**/*-color-theme.json"
-      - "**/*-icon-theme.json"
+    tags:
+      - "*"
 
-name: Publish
+name: Deploy Extension
 jobs:
-  publish:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: lannonbr/vsce-action@master
+      - uses: actions/setup-node@v1
         with:
-          args: "publish -p $VSCE_TOKEN"
-        env:
-          VSCE_TOKEN: ${{ secrets.PAT }}
+          node-version: 12
+      - run: npm ci
+      - name: Publish to Open VSX Registry
+        uses: HaaLeo/publish-vscode-extension@v0
+        id: publishToOpenVSX
+        with:
+          pat: ${{ secrets.OPEN_VSX_TOKEN }}
+      - name: Publish to Visual Studio Marketplace
+        uses: HaaLeo/publish-vscode-extension@v0
+        with:
+          pat: ${{ secrets.PAT }}
+          registryUrl: https://marketplace.visualstudio.com
+          extensionFile: ${{ steps.publishToOpenVSX.outputs.vsixPath }}
+          packagePath: ""
