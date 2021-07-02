@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.3.3
+
+- Add `editorHoverWidget.border`
+
+## v1.3.2
+
+- Publish to Open VSX (for VSCodium)
+
 ## v1.3.0
 
 - Update `list.activeSelectionForeground` from `iris` to `text`

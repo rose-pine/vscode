@@ -147,7 +147,7 @@
     "editorHint.border": "_transparent",
     "editorHint.foreground": "_subtle",
     "editorHoverWidget.background": "_surface",
-    "editorHoverWidget.border": "_transparent",
+    "editorHoverWidget.border": "_inactiveMuted",
     "editorHoverWidget.foreground": "_text",
     "editorHoverWidget.statusBarBackground": "_transparent",
     "editorIndentGuide.activeBackground": "_inactive",
