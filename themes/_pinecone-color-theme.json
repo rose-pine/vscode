@@ -222,7 +222,7 @@
     "gitDecoration.submoduleResourceForeground": "_gold",
     "gitDecoration.untrackedResourceForeground": "_gold",
     "icon.foreground": "_subtle",
-    "input.background": "_overlay",
+    "input.background": "_overlayMuted",
     "input.border": "_highlight",
     "input.foreground": "_text",
     "input.placeholderForeground": "_subtle",

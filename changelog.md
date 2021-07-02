@@ -1,5 +1,7 @@
 # Changelog
 
+- Update `input.background`
+
 ## v1.3.3
 
 - Add `editorHoverWidget.border`
