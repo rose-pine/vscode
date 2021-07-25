@@ -1,11 +1,11 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@rose-pine/palette': ^0.3.0
+  '@rose-pine/palette': ^1.0.0
   pinecone-cli: ^2.5.0
 
 devDependencies:
-  '@rose-pine/palette': 0.3.0
+  '@rose-pine/palette': 1.0.0
   pinecone-cli: 2.5.0
 
 packages:
@@ -31,8 +31,8 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@rose-pine/palette/0.3.0:
-    resolution: {integrity: sha512-RDR7FhbqGENKD+TcWefpZalcEFIApHkgEkXiTzn0/mqhr19Mt+ETfewu88g+9lqNZdHb1Q9OF3nnLTBOquMrvA==}
+  /@rose-pine/palette/1.0.0:
+    resolution: {integrity: sha512-H0rh53IRt5L9eZDZhVaTsf07BOQSj3JCJ6CEjptHN81A10MkPa3eR2rgqZzyNAlZ2X3WqclWYF/VZpnkTfAzQQ==}
     engines: {node: '>=12'}
     dev: true
 

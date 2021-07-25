@@ -22,7 +22,7 @@ export default defineConfig({
   },
   theme: {
     variants: {
-      core: {
+      dark: {
         name: "Rosé Pine",
         type: "dark",
       },
@@ -52,7 +52,7 @@ export default defineConfig({
       onNeutral: palette.text,
 
       shadow: {
-        core: alpha("#010101", 0.1),
+        dark: alpha("#010101", 0.1),
         moon: alpha("#191724", 0.3),
         dawn: alpha("#f2e9de", 0.3),
       },
