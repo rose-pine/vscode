@@ -500,7 +500,7 @@
     "terminal.ansiRed": "_love",
     "terminal.ansiWhite": "_text",
     "terminal.ansiYellow": "_gold",
-    "terminal.background": "_surface",
+    "terminal.background": "",
     "terminal.border": "",
     "terminal.dropBackground": "_highlight",
     "terminal.foreground": "_text",
