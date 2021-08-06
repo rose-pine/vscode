@@ -20,6 +20,8 @@
 
 ## Gallery
 
+> Font used is [Cartograph](https://connary.com/cartograph.html)
+
 **Rosé Pine**
 
 ![VSCode with Rosé Pine](https://github.com/rose-pine/vscode/raw/main/assets/rose-pine.png)
