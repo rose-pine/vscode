@@ -60,6 +60,9 @@ export default defineConfig({
       diffHighlightInserted: alpha(palette.foam, 0.08),
       diffHighlightRemoved: alpha(palette.love, 0.08),
 
+      icon: palette.subtle,
+      iconActive: palette.text,
+
       ...colorsByRole,
       ...transparentHighlightsByRole,
       ...mutedColors,
