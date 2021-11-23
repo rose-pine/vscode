@@ -233,6 +233,7 @@
     "extensionButton.prominentForeground": "_onPrimary",
     "extensionButton.prominentHoverBackground": "_primaryHover",
     "extensionIcon.starForeground": "_primary",
+    "extensionIcon.verifiedForeground": "_iris",
     "focusBorder": "_highlight",
     "foreground": "_text",
     "gitDecoration.addedResourceForeground": "_foam",
