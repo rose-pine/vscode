@@ -556,6 +556,7 @@
     "testing.message.warning.decorationForeground": "",
     "testing.message.warning.lineBackground": "",
     "testing.peekBorder": "",
+    "testing.peekHeaderBackground": "",
     "testing.runAction": "",
 
     // https://github.com/microsoft/vscode/issues/26298
@@ -590,6 +591,31 @@
     "window.activeBorder": "_surface",
     "window.inactiveBorder": "_surface",
 
+    /**
+     * New Properties
+     * PR's are appreciated, especially for the below settings
+     *
+     * Contributing
+     * 1. Clone repo and npm install
+     * 2. `npm run watch` and start debug session
+     * 3. Update values to `#ff0000` or similar to discover usage
+     * 4. Pick your favourite colour, eg. `_rose` and apply it :)
+     * 5. Once satisfied, move your updated propertie(s) above to match alphabetical order
+     */
+    "editorBracketHighlight.unexpectedBracket.foreground": "",
+    "editorMarkerNavigationError.headerBackground": "",
+    "editorMarkerNavigationInfo.headerBackground": "",
+    "editorMarkerNavigationWarning.headerBackground": "",
+    "interactive.activeCodeBorder": "",
+    "interactive.inactiveCodeBorder": "",
+    "minimap.foregroundOpacity": "",
+    "minimap.selectionOccurrenceHighlight": "",
+    "notebook.outputContainerBorderColor": "",
+    "sideBySideEditor.horizontalBorder": "",
+    "sideBySideEditor.verticalBorder": "",
+    "statusBarItem.warningBackground": "",
+    "statusBarItem.warningForeground": "",
+    "welcomePage.tileShadow": ""
   },
   "tokenColors": [
     {
