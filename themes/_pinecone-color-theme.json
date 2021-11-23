@@ -173,9 +173,13 @@
     "editorIndentGuide.background": "_highlightOverlay",
     "editorInfo.background": "",
     "editorInfo.border": "_overlay",
-    "editorInlayHint.background": "_transparent",
     "editorInfo.foreground": "_information",
+    "editorInlayHint.background": "_overlay",
     "editorInlayHint.foreground": "_subtle",
+    "editorInlayHint.parameterBackground": "_overlay",
+    "editorInlayHint.parameterForeground": "_iris",
+    "editorInlayHint.typeBackground": "_overlay",
+    "editorInlayHint.typeForeground": "_foam",
     "editorLightBulb.foreground": "_pine",
     "editorLightBulbAutoFix.foreground": "_primary",
     "editorLineNumber.activeForeground": "_text",
@@ -580,9 +584,6 @@
     "window.activeBorder": "_surface",
     "window.inactiveBorder": "_surface",
 
-    // Plugins
-    "inlineparameters.annotationBackground": "_transparent",
-    "inlineparameters.annotationForeground": "_subtle"
   },
   "tokenColors": [
     {
