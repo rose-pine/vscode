@@ -63,6 +63,10 @@ export default defineConfig({
       icon: palette.subtle,
       iconActive: palette.text,
 
+      information: palette.foam,
+      warning: palette.gold,
+      error: palette.love,
+
       ...colorsByRole,
       ...transparentHighlightsByRole,
       ...mutedColors,
