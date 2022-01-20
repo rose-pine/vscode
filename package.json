@@ -1,70 +1,76 @@
 {
-  "name": "rose-pine",
-  "version": "1.4.0",
-  "publisher": "mvllow",
-  "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
-  "license": "MIT",
-  "repository": {
-    "url": "https://github.com/rose-pine/vscode"
-  },
-  "funding": "https://github.com/rose-pine/vscode?sponsor=1",
-  "author": {
-    "name": "Rosé Pine",
-    "email": "rose@mellow.dev"
-  },
-  "type": "module",
-  "engines": {
-    "vscode": "^1.57.0"
-  },
-  "scripts": {
-    "build": "pinecone",
-    "watch": "pinecone watch",
-    "release": "np --no-publish --no-tests"
-  },
-  "icon": "assets/icon.png",
-  "displayName": "Rosé Pine",
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "minimal",
-    "aesthetic",
-    "pastel",
-    "classy",
-    "soft"
-  ],
-  "galleryBanner": {
-    "color": "#191724",
-    "theme": "dark"
-  },
-  "contributes": {
-    "themes": [
-      {
-        "label": "Rosé Pine",
-        "uiTheme": "vs-dark",
-        "path": "./themes/rose-pine-color-theme.json"
-      },
-      {
-        "label": "Rosé Pine Moon",
-        "uiTheme": "vs-dark",
-        "path": "./themes/rose-pine-moon-color-theme.json"
-      },
-      {
-        "label": "Rosé Pine Dawn",
-        "uiTheme": "vs",
-        "path": "./themes/rose-pine-dawn-color-theme.json"
-      }
-    ],
-    "iconThemes": [
-      {
-        "id": "rose-pine-icons",
-        "label": "Rosé Pine Icons",
-        "path": "./icons/rose-pine-icon-theme.json"
-      }
-    ]
-  },
-  "devDependencies": {
-    "@rose-pine/palette": "^1.0.0",
-    "pinecone-cli": "^2.5.0"
-  }
+	"name": "rose-pine",
+	"version": "1.4.0",
+	"publisher": "mvllow",
+	"description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/rose-pine/vscode"
+	},
+	"funding": "https://github.com/rose-pine/vscode?sponsor=1",
+	"author": {
+		"name": "Rosé Pine",
+		"email": "hi@rosepinetheme.com"
+	},
+	"type": "module",
+	"engines": {
+		"vscode": "^1.57.0"
+	},
+	"scripts": {
+		"build": "pinecone",
+		"watch": "pinecone watch",
+		"release": "np --no-publish --no-tests"
+	},
+	"icon": "assets/icon.png",
+	"displayName": "Rosé Pine",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"minimal",
+		"aesthetic",
+		"pastel",
+		"classy",
+		"soft"
+	],
+	"galleryBanner": {
+		"color": "#191724",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Rosé Pine",
+				"uiTheme": "vs-dark",
+				"path": "./themes/rose-pine-color-theme.json"
+			},
+			{
+				"label": "Rosé Pine Moon",
+				"uiTheme": "vs-dark",
+				"path": "./themes/rose-pine-moon-color-theme.json"
+			},
+			{
+				"label": "Rosé Pine Dawn",
+				"uiTheme": "vs",
+				"path": "./themes/rose-pine-dawn-color-theme.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "rose-pine-icons",
+				"label": "Rosé Pine Icons",
+				"path": "./icons/rose-pine-icon-theme.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@rose-pine/palette": "^2.0.0-4",
+		"pinecone-cli": "^2.5.0",
+		"prettier": "^2.5.1"
+	},
+	"prettier": {
+		"semi": false,
+		"singleQuote": true,
+		"useTabs": true
+	}
 }

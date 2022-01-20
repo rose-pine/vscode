@@ -1,11 +1,11 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Preview Rosé Pine",
-      "type": "extensionHost",
-      "args": ["--extensionDevelopmentPath=${workspaceFolder}"],
-      "request": "launch"
-    }
-  ]
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Preview Rosé Pine",
+			"type": "extensionHost",
+			"args": ["--extensionDevelopmentPath=${workspaceFolder}"],
+			"request": "launch"
+		}
+	]
 }
