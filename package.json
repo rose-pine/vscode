@@ -65,6 +65,7 @@
 	},
 	"devDependencies": {
 		"@rose-pine/palette": "^2.0.0-4",
+		"np": "^7.6.1",
 		"pinecone-cli": "^2.5.0",
 		"prettier": "^2.5.1"
 	},
