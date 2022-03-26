@@ -70,8 +70,8 @@ export default defineConfig({
 				dawn: alpha('#f2e9de', 0.3),
 			},
 
-			diffHighlightInserted: alpha(colors.foam, 0.08),
-			diffHighlightRemoved: alpha(colors.love, 0.08),
+			diffHighlightInserted: alpha(colors.foam, 0.15),
+			diffHighlightRemoved: alpha(colors.love, 0.15),
 
 			icon: colors.subtle,
 			iconActive: colors.text,
