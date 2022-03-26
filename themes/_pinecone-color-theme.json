@@ -691,6 +691,25 @@
 		},
 
 		{
+			"scope": ["markup.inserted.diff"],
+			"settings": {
+				"foreground": "_foam"
+			}
+		},
+		{
+			"scope": ["markup.deleted.diff"],
+			"settings": {
+				"foreground": "_love"
+			}
+		},
+
+		{
+			"scope": ["meta.diff.range"],
+			"settings": {
+				"foreground": "_iris"
+			}
+		},
+		{
 			"scope": ["meta.tag", "meta.brace"],
 			"settings": {
 				"foreground": "_text"
@@ -727,6 +746,7 @@
 				"foreground": "_subtle"
 			}
 		},
+
 		{
 			"scope": ["punctuation"],
 			"settings": {
