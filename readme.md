@@ -24,15 +24,15 @@
 
 **Rosé Pine**
 
-![VSCode with Rosé Pine](https://github.com/rose-pine/vscode/raw/main/assets/rose-pine.png)
+![VSCode with Rosé Pine](https://user-images.githubusercontent.com/47515065/167261776-6ba49a1a-3f02-4e27-8636-797b90c9f8ec.png)
 
 **Rosé Pine Moon**
 
-![VSCode with Rosé Pine Moon](https://github.com/rose-pine/vscode/raw/main/assets/rose-pine-moon.png)
+![VSCode with Rosé Pine Moon](https://user-images.githubusercontent.com/47515065/167261721-d8ce566b-904c-444e-9edf-91516d6e4a8e.png)
 
 **Rosé Pine Dawn**
 
-![VSCode with Rosé Pine Dawn](https://github.com/rose-pine/vscode/raw/main/assets/rose-pine-dawn.png)
+![VSCode with Rosé Pine Dawn](https://user-images.githubusercontent.com/47515065/167261803-66faaf45-c617-4350-8ece-7e134614c60d.png)
 
 ## Disable italics
 
