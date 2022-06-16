@@ -302,7 +302,7 @@
 		"menu.selectionBackground": "$highlightMed",
 		"menu.selectionBorder": "$overlay",
 		"menu.selectionForeground": "$text",
-		"menu.separatorBackground": "$text",
+		"menu.separatorBackground": "$highlightHigh",
 		"menubar.selectionBackground": "$highlightMed",
 		"menubar.selectionBorder": "$highlightLow",
 		"menubar.selectionForeground": "$text",
