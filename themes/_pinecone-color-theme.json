@@ -234,6 +234,7 @@
 		"extensionButton.prominentBackground": "$primary",
 		"extensionButton.prominentForeground": "$onPrimary",
 		"extensionButton.prominentHoverBackground": "$primaryHover",
+		"extensionIcon.preReleaseForeground": "$pine",
 		"extensionIcon.starForeground": "$primary",
 		"extensionIcon.verifiedForeground": "$iris",
 		"focusBorder": "$highlightMed",

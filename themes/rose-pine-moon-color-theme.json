@@ -205,6 +205,7 @@
 		"extensionButton.prominentBackground": "#ea9a97",
 		"extensionButton.prominentForeground": "#232136",
 		"extensionButton.prominentHoverBackground": "#ea9a97e6",
+		"extensionIcon.preReleaseForeground": "#3e8fb0",
 		"extensionIcon.starForeground": "#ea9a97",
 		"extensionIcon.verifiedForeground": "#c4a7e7",
 		"focusBorder": "#817c9c26",
