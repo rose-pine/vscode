@@ -40,7 +40,7 @@ Add this snippet to your `settings.json` to disable italics for Rosé Pine
 
 ```json
 "editor.tokenColorCustomizations": {
-  "[Rosé Pine]": {
+  "[Rosé Pine*]": {
     "textMateRules": [
       {
         "scope": [
