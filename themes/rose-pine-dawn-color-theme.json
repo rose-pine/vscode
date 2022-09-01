@@ -134,7 +134,7 @@
 		"editorGroupHeader.tabsBackground": "#0000",
 		"editorGroupHeader.tabsBorder": "#0000",
 		"editorGutter.addedBackground": "#56949f",
-		"editorGutter.background": "#0000",
+		"editorGutter.background": "#faf4ed",
 		"editorGutter.commentRangeForeground": "#797593",
 		"editorGutter.deletedBackground": "#b4637a",
 		"editorGutter.foldingControlForeground": "#907aa9",

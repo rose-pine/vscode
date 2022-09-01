@@ -161,7 +161,7 @@
 		"editorGroupHeader.tabsBackground": "$transparent",
 		"editorGroupHeader.tabsBorder": "$transparent",
 		"editorGutter.addedBackground": "$foam",
-		"editorGutter.background": "$transparent",
+		"editorGutter.background": "$base",
 		"editorGutter.commentRangeForeground": "$subtle",
 		"editorGutter.deletedBackground": "$love",
 		"editorGutter.foldingControlForeground": "$iris",
