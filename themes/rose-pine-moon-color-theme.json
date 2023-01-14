@@ -479,11 +479,7 @@
 			}
 		},
 		{
-			"scope": [
-				"constant.numeric",
-				"constant.language",
-				"constant.charcter.escape"
-			],
+			"scope": ["constant.numeric", "constant.language"],
 			"settings": {
 				"foreground": "#ea9a97"
 			}
