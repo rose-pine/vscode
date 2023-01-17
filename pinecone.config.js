@@ -22,6 +22,12 @@ Object.keys(roles).map((role) => {
 		moon: colorish(currentRole.moon.hex, 0.5),
 		dawn: colorish(currentRole.dawn.hex, 0.5),
 	}
+
+	colors[`${role}15`] = {
+		main: colorish(currentRole.main.hex, 0.15),
+		moon: colorish(currentRole.moon.hex, 0.15),
+		dawn: colorish(currentRole.dawn.hex, 0.15),
+	}
 })
 
 export default defineConfig({
@@ -66,8 +72,8 @@ export default defineConfig({
 			dawn: colorish('#f2e9de', 0.3),
 		},
 
-		diffHighlightInserted: colorish(colors.foam, 0.15),
-		diffHighlightRemoved: colorish(colors.love, 0.15),
+		diffHighlightInserted: colors.foam15,
+		diffHighlightRemoved: colors.love15,
 
 		icon: colors.subtle,
 		iconActive: colors.text,
