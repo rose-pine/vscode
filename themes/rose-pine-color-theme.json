@@ -88,6 +88,7 @@
 		"editor.selectionBackground": "#6e6a8633",
 		"editor.selectionForeground": "#e0def4",
 		"editor.selectionHighlightBackground": "#6e6a8633",
+		"editor.selectionHighlightBorder": "#191724",
 		"editor.snippetFinalTabstopHighlightBackground": "#6e6a8633",
 		"editor.snippetFinalTabstopHighlightBorder": "#1f1d2e",
 		"editor.snippetTabstopHighlightBackground": "#6e6a8633",

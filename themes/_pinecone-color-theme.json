@@ -112,7 +112,7 @@
 		"editor.selectionBackground": "$highlightMed",
 		"editor.selectionForeground": "$text",
 		"editor.selectionHighlightBackground": "$highlightMed",
-		"editor.selectionHighlightBorder": "",
+		"editor.selectionHighlightBorder": "$base",
 		"editor.snippetFinalTabstopHighlightBackground": "$highlightMed",
 		"editor.snippetFinalTabstopHighlightBorder": "$surface",
 		"editor.snippetTabstopHighlightBackground": "$highlightMed",
