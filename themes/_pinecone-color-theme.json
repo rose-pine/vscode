@@ -403,7 +403,7 @@
 		"quickInputTitle.background": "",
 		"sash.hoverBorder": "",
 		"scm.providerBorder": "",
-		"scrollbar.shadow": "$transparent",
+		"scrollbar.shadow": "$shadow",
 		"scrollbarSlider.activeBackground": "$pineMuted",
 		"scrollbarSlider.background": "$highlightMed",
 		"scrollbarSlider.hoverBackground": "$highlightHigh",
