@@ -108,7 +108,7 @@
 		"editor.lineHighlightBorder": "$transparent",
 		"editor.linkedEditingBackground": "$surface",
 		"editor.rangeHighlightBackground": "$highlightLow",
-		"editor.rangeHighlightBorder": "$transparent",
+		"editor.rangeHighlightBorder": "",
 		"editor.selectionBackground": "$highlightMed",
 		"editor.selectionForeground": "$text",
 		"editor.selectionHighlightBackground": "$highlightMed",
