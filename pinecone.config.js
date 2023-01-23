@@ -35,6 +35,7 @@ export default defineConfig({
 		source: './themes/_pinecone-color-theme.json',
 		output: './themes',
 		prefix: '$',
+		includeNonItalicVariants: true,
 	},
 	variants: {
 		main: {

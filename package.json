@@ -41,6 +41,13 @@
 		"theme": "dark"
 	},
 	"contributes": {
+		"iconThemes": [
+			{
+				"id": "rose-pine-icons",
+				"label": "Rosé Pine Icons",
+				"path": "./icons/rose-pine-icon-theme.json"
+			}
+		],
 		"themes": [
 			{
 				"label": "Rosé Pine",
@@ -48,21 +55,29 @@
 				"path": "./themes/rose-pine-color-theme.json"
 			},
 			{
+				"label": "Rosé Pine (no italics)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/rose-pine-no-italics-color-theme.json"
+			},
+			{
 				"label": "Rosé Pine Moon",
 				"uiTheme": "vs-dark",
 				"path": "./themes/rose-pine-moon-color-theme.json"
 			},
 			{
+				"label": "Rosé Pine Moon (no italics)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/rose-pine-moon-no-italics-color-theme.json"
+			},
+			{
 				"label": "Rosé Pine Dawn",
 				"uiTheme": "vs",
 				"path": "./themes/rose-pine-dawn-color-theme.json"
-			}
-		],
-		"iconThemes": [
+			},
 			{
-				"id": "rose-pine-icons",
-				"label": "Rosé Pine Icons",
-				"path": "./icons/rose-pine-icon-theme.json"
+				"label": "Rosé Pine Dawn (no italics)",
+				"uiTheme": "vs",
+				"path": "./themes/rose-pine-dawn-no-italics-color-theme.json"
 			}
 		]
 	},
