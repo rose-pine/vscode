@@ -9,16 +9,16 @@
 
 <script setup lang="ts">
 interface Fruit {
-	name: string
-	isSweet: boolean
+	name: string;
+	isSweet: boolean;
 }
 
-const whenToEatSweetFruits = 'all the time'
-const whenToEatSourFruits = 'all the time'
+const whenToEatSweetFruits = "all the time";
+const whenToEatSourFruits = "all the time";
 const someFruit: Fruit = {
-	name: 'pitaya',
+	name: "pitaya",
 	isSweet: true,
-}
+};
 </script>
 
 <style scoped>

@@ -90,8 +90,6 @@
 		"prettier": "^2.5.1"
 	},
 	"prettier": {
-		"semi": false,
-		"singleQuote": true,
 		"useTabs": true
 	}
 }
