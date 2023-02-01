@@ -22,7 +22,9 @@
 	"scripts": {
 		"build": "pinecone",
 		"watch": "pinecone --watch",
-		"release": "np --no-publish --no-tests"
+		"format": "prettier --write .",
+		"release": "np --no-publish --no-tests",
+		"version": "npm run build && npm run format"
 	},
 	"icon": "assets/icon.png",
 	"displayName": "Rosé Pine",
@@ -84,7 +86,7 @@
 	"devDependencies": {
 		"@rose-pine/palette": "^2.0.0-4",
 		"np": "^7.6.1",
-		"pinecone-cli": "^3.0.1",
+		"pinecone-cli": "^4.0.0",
 		"prettier": "^2.5.1"
 	},
 	"prettier": {
