@@ -766,13 +766,13 @@
 		{
 			"scope": "markup.heading",
 			"settings": {
-				"fontStyle":"bold"
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "markup.bold.markdown",
 			"settings": {
-				"fontStyle":"bold"
+				"fontStyle": "bold"
 			}
 		},
 		{

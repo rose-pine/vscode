@@ -20,7 +20,7 @@
 		"vscode": "^1.57.0"
 	},
 	"scripts": {
-		"build": "pinecone",
+		"build": "pinecone && npm run format",
 		"watch": "pinecone --watch",
 		"format": "prettier --write .",
 		"release": "np --no-publish --no-tests",
@@ -84,9 +84,9 @@
 		]
 	},
 	"devDependencies": {
-		"@rose-pine/palette": "^2.0.0-4",
+		"@rose-pine/palette": "3.0.1",
 		"np": "^7.6.1",
-		"pinecone-cli": "^4.0.0",
+		"pinecone-cli": "^4.0.1",
 		"prettier": "^2.5.1"
 	},
 	"prettier": {
