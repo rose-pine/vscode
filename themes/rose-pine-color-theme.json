@@ -156,8 +156,8 @@
 		"editorInlayHint.typeBackground": "#26233a",
 		"editorInlayHint.typeForeground": "#9ccfd8",
 		"editorLightBulb.foreground": "#31748f",
-		"editorLightBulbAutoFix.foreground": "#ebbcba",
-		"editorLineNumber.activeForeground": "#e0def4",
+		"editorLightBulbAutoFix.foreground": "#56536b",
+		"editorLineNumber.activeForeground": "#bebcd1",
 		"editorLineNumber.foreground": "#908caa",
 		"editorLink.activeForeground": "#ebbcba",
 		"editorMarkerNavigation.background": "#1f1d2e",
@@ -466,7 +466,7 @@
 		{
 			"scope": ["comment"],
 			"settings": {
-				"foreground": "#6e6a86",
+				"foreground": "#56536b",
 				"fontStyle": "italic"
 			}
 		},
