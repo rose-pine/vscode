@@ -466,7 +466,7 @@
 		{
 			"scope": ["comment"],
 			"settings": {
-				"foreground": "#6e6a86",
+				"foreground": "	#ff007f",
 				"fontStyle": "italic"
 			}
 		},
