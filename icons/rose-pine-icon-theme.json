@@ -20,5 +20,8 @@
 	},
 	"folder": "_folder",
 	"folderExpanded": "_folder-open",
+	"fileExtensions": {
+		"astro": "_file"
+	},
 	"hidesExplorerArrows": true
 }
