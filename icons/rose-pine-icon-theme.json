@@ -22,6 +22,7 @@
 	"folderExpanded": "_folder-open",
 	"fileExtensions": {
 		"astro": "_file"
+		"bicep": "_file"
 	},
 	"hidesExplorerArrows": true
 }
