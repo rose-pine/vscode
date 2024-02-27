@@ -404,7 +404,7 @@
 		"quickInputTitle.background": "",
 		"sash.hoverBorder": "",
 		"scm.providerBorder": "",
-		"scrollbar.shadow": "$shadow",
+		"scrollbar.shadow": "$transparent",
 		"scrollbarSlider.activeBackground": "$pine/50",
 		"scrollbarSlider.background": "$highlightMed",
 		"scrollbarSlider.hoverBackground": "$highlightHigh",
@@ -584,7 +584,7 @@
 		"welcomePage.tileBackground": "",
 		"welcomePage.tileHoverBackground": "",
 		"welcomePage.tileShadow.": "",
-		"widget.shadow": "$shadow",
+		"widget.shadow": "$transparent",
 		"window.activeBorder": "$surface",
 		"window.inactiveBorder": "$surface",
 		/**

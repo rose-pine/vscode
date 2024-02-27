@@ -342,7 +342,7 @@
 		"quickInputList.focusBackground": "#817c9c26",
 		"quickInputList.focusForeground": "#e0def4",
 		"quickInputList.focusIconForeground": "#e0def4",
-		"scrollbar.shadow": "#2a273f4d",
+		"scrollbar.shadow": "#0000",
 		"scrollbarSlider.activeBackground": "#3e8fb080",
 		"scrollbarSlider.background": "#817c9c26",
 		"scrollbarSlider.hoverBackground": "#817c9c4d",
@@ -458,7 +458,7 @@
 		"welcomePage.background": "#232136",
 		"welcomePage.buttonBackground": "#2a273f",
 		"welcomePage.buttonHoverBackground": "#393552",
-		"widget.shadow": "#2a273f4d",
+		"widget.shadow": "#0000",
 		"window.activeBorder": "#2a273f",
 		"window.inactiveBorder": "#2a273f"
 	},

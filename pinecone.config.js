@@ -47,7 +47,6 @@ export default defineConfig({
 		},
 	},
 	colors: {
-		shadow: colorish(palette.surface, 0.3),
 		transparent: '#0000',
 
 		onPrimary: palette.base,
