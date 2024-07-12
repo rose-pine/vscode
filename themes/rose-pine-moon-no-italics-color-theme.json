@@ -519,7 +519,7 @@
 			}
 		},
 		{
-			"scope": ["keyword"],
+			"scope": ["keyword", "variable.language.this"],
 			"settings": {
 				"foreground": "#3e8fb0"
 			}
