@@ -746,7 +746,7 @@
 			}
 		},
 		{
-			"scope": ["keyword"],
+			"scope": ["keyword", "variable.language.this"],
 			"settings": {
 				"foreground": "$pine"
 			}
