@@ -168,6 +168,8 @@
 		"editorOverviewRuler.background": "#faf4ed",
 		"editorOverviewRuler.border": "#6e6a8626",
 		"editorOverviewRuler.bracketMatchForeground": "#797593",
+		"editorOverviewRuler.commentForeground": "#79759380",
+		"editorOverviewRuler.commentUnresolvedForeground": "#ea9d3480",
 		"editorOverviewRuler.commonContentForeground": "#6e6a860d",
 		"editorOverviewRuler.currentContentForeground": "#6e6a8614",
 		"editorOverviewRuler.deletedForeground": "#b4637a80",

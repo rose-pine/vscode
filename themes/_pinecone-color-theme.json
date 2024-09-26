@@ -197,6 +197,8 @@
 		"editorOverviewRuler.background": "$base",
 		"editorOverviewRuler.border": "$highlightHigh",
 		"editorOverviewRuler.bracketMatchForeground": "$subtle",
+		"editorOverviewRuler.commentForeground": "$subtle/50",
+		"editorOverviewRuler.commentUnresolvedForeground": "$gold/50",
 		"editorOverviewRuler.commonContentForeground": "$highlightLow",
 		"editorOverviewRuler.currentContentForeground": "$highlightMed",
 		"editorOverviewRuler.deletedForeground": "$love/50",
