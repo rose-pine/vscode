@@ -162,7 +162,7 @@
 		"editorGroupHeader.tabsBorder": "$transparent",
 		"editorGutter.addedBackground": "$foam",
 		"editorGutter.background": "$base",
-		"editorGutter.commentRangeForeground": "$subtle",
+		"editorGutter.commentRangeForeground": "$overlay",
 		"editorGutter.deletedBackground": "$love",
 		"editorGutter.foldingControlForeground": "$iris",
 		"editorGutter.modifiedBackground": "$primary",
