@@ -18,6 +18,11 @@ Object.keys(roles).map((role) => {
 		moon: colorish(currentRole.moon.hex, 0.5),
 		dawn: colorish(currentRole.dawn.hex, 0.5),
 	}
+	palette[`${role}/30`] = {
+		main: colorish(currentRole.main.hex, 0.3),
+		moon: colorish(currentRole.moon.hex, 0.3),
+		dawn: colorish(currentRole.dawn.hex, 0.3),
+	}
 	palette[`${role}/15`] = {
 		main: colorish(currentRole.main.hex, 0.15),
 		moon: colorish(currentRole.moon.hex, 0.15),
