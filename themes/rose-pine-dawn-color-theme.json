@@ -232,6 +232,7 @@
 		"input.foreground": "#575279",
 		"input.placeholderForeground": "#797593",
 		"inputOption.activeBackground": "#d7827e26",
+		"inputOption.activeBorder": "#0000",
 		"inputOption.activeForeground": "#d7827e",
 		"inputValidation.errorBackground": "#fffaf3",
 		"inputValidation.errorBorder": "#6e6a8626",
