@@ -261,7 +261,7 @@
 		"input.foreground": "$text",
 		"input.placeholderForeground": "$subtle",
 		"inputOption.activeBackground": "$rose/15",
-		"inputOption.activeBorder": "",
+		"inputOption.activeBorder": "$transparent",
 		"inputOption.activeForeground": "$rose",
 		"inputValidation.errorBackground": "$surface",
 		"inputValidation.errorBorder": "$highlightHigh",
