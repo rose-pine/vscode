@@ -216,6 +216,7 @@
 		"extensionIcon.verifiedForeground": "#907aa9",
 		"focusBorder": "#6e6a8614",
 		"foreground": "#575279",
+		"git.blame.editorDecorationForeground": "#9893a5",
 		"gitDecoration.addedResourceForeground": "#56949f",
 		"gitDecoration.conflictingResourceForeground": "#b4637a",
 		"gitDecoration.deletedResourceForeground": "#797593",
