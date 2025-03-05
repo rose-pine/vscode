@@ -245,6 +245,7 @@
 		"extensionIcon.verifiedForeground": "$iris",
 		"focusBorder": "$highlightMed",
 		"foreground": "$text",
+		"git.blame.editorDecorationForeground": "$muted",
 		"gitDecoration.addedResourceForeground": "$foam",
 		"gitDecoration.conflictingResourceForeground": "$love",
 		"gitDecoration.deletedResourceForeground": "$subtle",
