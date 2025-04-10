@@ -4,6 +4,7 @@
 
 - Increase `findMatchHighlightForeground` contrast
 - Dim inlay hint
+- Dim `editorWhitespace.foreground`
 - Fix `linkedEditingBackground` background (matching tag highlight)
 - Fix `selectionBackground` missing alpha
 - Fix missing `editorIndentGuide`

@@ -227,7 +227,7 @@
 		"editorWarning.background": "",
 		"editorWarning.border": "$transparent",
 		"editorWarning.foreground": "$gold",
-		"editorWhitespace.foreground": "$muted",
+		"editorWhitespace.foreground": "$muted/50",
 		"editorWidget.background": "$surface",
 		"editorWidget.border": "$overlay",
 		"editorWidget.foreground": "$subtle",

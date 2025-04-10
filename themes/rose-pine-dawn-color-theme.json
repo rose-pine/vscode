@@ -198,7 +198,7 @@
 		"editorUnnecessaryCode.opacity": "#57527980",
 		"editorWarning.border": "#0000",
 		"editorWarning.foreground": "#ea9d34",
-		"editorWhitespace.foreground": "#9893a5",
+		"editorWhitespace.foreground": "#9893a580",
 		"editorWidget.background": "#fffaf3",
 		"editorWidget.border": "#f2e9e1",
 		"editorWidget.foreground": "#797593",
