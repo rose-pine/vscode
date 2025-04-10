@@ -13,6 +13,11 @@ Object.keys(roles).map((role) => {
 	}
 
 	// Add translucent variations.
+	palette[`${role}/80`] = {
+		main: colorish(currentRole.main.hex, 0.8),
+		moon: colorish(currentRole.moon.hex, 0.8),
+		dawn: colorish(currentRole.dawn.hex, 0.8),
+	}
 	palette[`${role}/50`] = {
 		main: colorish(currentRole.main.hex, 0.5),
 		moon: colorish(currentRole.moon.hex, 0.5),

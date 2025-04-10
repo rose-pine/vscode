@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.13.1
+- fix `linkedEditingBackground` background (matching tag highlight)
+- fix `selectionBackground` missing alpha
+- fix missing `editorIndentGuide`
+- increase `findMatchHighlightForeground` contrast
+
+## v2.13.0
 - Update `input.background`
 
 ## v1.3.3
