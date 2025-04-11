@@ -1,5 +1,16 @@
 # Changelog
 
+## v2.13.1
+
+- Increase `findMatchHighlightForeground` contrast
+- Dim inlay hint
+- Dim `editorWhitespace.foreground`
+- Fix `linkedEditingBackground` background (matching tag highlight)
+- Fix `selectionBackground` missing alpha
+- Fix missing `editorIndentGuide`
+
+## v2.13.0
+
 - Update `input.background`
 
 ## v1.3.3
