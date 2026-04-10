@@ -226,7 +226,7 @@
 		"gitDecoration.submoduleResourceForeground": "#ea9d34",
 		"gitDecoration.untrackedResourceForeground": "#ea9d34",
 		"icon.foreground": "#797593",
-		"input.background": "#f2e9e180",
+		"input.background": "#fffaf3",
 		"input.border": "#6e6a8614",
 		"input.foreground": "#575279",
 		"input.placeholderForeground": "#797593",

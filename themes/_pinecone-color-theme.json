@@ -255,7 +255,7 @@
 		"gitDecoration.submoduleResourceForeground": "$gold",
 		"gitDecoration.untrackedResourceForeground": "$gold",
 		"icon.foreground": "$subtle",
-		"input.background": "$overlay/50",
+		"input.background": "$surface",
 		"input.border": "$highlightMed",
 		"input.foreground": "$text",
 		"input.placeholderForeground": "$subtle",
