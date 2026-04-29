@@ -1,6 +1,25 @@
 import { colorish, defineConfig } from 'pinecone-cli'
 import { roles } from '@rose-pine/palette'
 
+const blend = (foreground, background, alpha) => {
+	const channels = (hex) =>
+		hex
+			.replace('#', '')
+			.match(/.{2}/g)
+			.map((channel) => Number.parseInt(channel, 16))
+
+	const foregroundChannels = channels(foreground)
+	const backgroundChannels = channels(background)
+
+	return `#${foregroundChannels
+		.map((channel, index) =>
+			Math.round(channel * alpha + backgroundChannels[index] * (1 - alpha))
+				.toString(16)
+				.padStart(2, '0')
+		)
+		.join('')}`
+}
+
 const palette = {}
 Object.keys(roles).map((role) => {
 	const currentRole = roles[role]
@@ -40,6 +59,12 @@ Object.keys(roles).map((role) => {
 	}
 })
 
+const inputBackground = {
+	main: blend(roles.overlay.main.hex, roles.surface.main.hex, 0.5),
+	moon: blend(roles.overlay.moon.hex, roles.surface.moon.hex, 0.5),
+	dawn: blend(roles.overlay.dawn.hex, roles.surface.dawn.hex, 0.5),
+}
+
 export default defineConfig({
 	options: {
 		source: './themes/_pinecone-color-theme.json',
@@ -72,6 +97,8 @@ export default defineConfig({
 		onSecondary: palette.base,
 		secondary: palette.iris,
 		secondaryHover: colorish(palette.iris, 0.9),
+
+		inputBackground,
 
 		...palette,
 	},
