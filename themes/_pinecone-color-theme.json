@@ -48,7 +48,7 @@
 		"debugExceptionWidget.background": "$surface",
 		"debugExceptionWidget.border": "$highlightMed",
 		"debugIcon.breakpointCurrentStackframeForeground": "$subtle",
-		"debugIcon.breakpointDisabledForeground": "$subtle",
+		"debugIcon.breakpointDisabledForeground": "$highlightHigh",
 		"debugIcon.breakpointForeground": "$subtle",
 		"debugIcon.breakpointStackframeForeground": "$subtle",
 		"debugIcon.breakpointUnverifiedForeground": "$subtle",

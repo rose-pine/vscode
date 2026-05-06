@@ -39,7 +39,7 @@
 		"debugExceptionWidget.background": "#fffaf3",
 		"debugExceptionWidget.border": "#6e6a8614",
 		"debugIcon.breakpointCurrentStackframeForeground": "#797593",
-		"debugIcon.breakpointDisabledForeground": "#797593",
+		"debugIcon.breakpointDisabledForeground": "#9893a5",
 		"debugIcon.breakpointForeground": "#797593",
 		"debugIcon.breakpointStackframeForeground": "#797593",
 		"debugIcon.breakpointUnverifiedForeground": "#797593",
