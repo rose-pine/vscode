@@ -23,7 +23,8 @@
 	"fileExtensions": {
 		"astro": "_file",
 		"bicep": "_file",
-		"css": "_file"
+		"css": "_file",
+		"yml": "_file"
 	},
 	"hidesExplorerArrows": true
 }
